@@ -95,64 +95,19 @@
       padding: 20px 16px 0;
     }
 
-    /* ── DISCLAIMER ── */
-    .disclaimer {
+    /* ── INFO BAR (combined disclaimer + CTA) ── */
+    .info-bar {
       background: #fffbe6;
-      border: 1.5px solid #0a0a0a;
-      padding: 12px 14px;
-      margin-bottom: 16px;
-    }
-    .disclaimer-label {
+      border: 1px solid #d4c800;
+      border-left: 4px solid #d4c800;
+      padding: 8px 12px;
+      margin-bottom: 14px;
       font-family: 'IBM Plex Mono', monospace;
       font-size: 0.68rem;
-      font-variant: small-caps;
-      letter-spacing: 0.12em;
-      font-weight: 600;
-      margin-bottom: 7px;
+      color: #555;
+      line-height: 1.7;
     }
-    .disclaimer ol {
-      padding-left: 16px;
-    }
-    .disclaimer ol li {
-      font-size: 0.82rem;
-      line-height: 1.65;
-      color: #333;
-    }
-
-    /* ── COLLEGE CTA ── */
-    .college-cta {
-      border: 1.5px solid #0a0a0a;
-      background: #f0f7ff;
-      padding: 12px 14px;
-      margin-bottom: 20px;
-    }
-    .cta-heading {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      margin-bottom: 7px;
-    }
-    .cta-body {
-      font-size: 0.84rem;
-      margin-bottom: 8px;
-      line-height: 1.55;
-    }
-    .cta-body a {
-      color: #1a6fc4;
-      font-weight: 600;
-    }
-    .cta-rules {
-      padding-left: 16px;
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-    }
-    .cta-rules li {
-      font-size: 0.82rem;
-      line-height: 1.55;
-      color: #333;
-    }
+    .info-bar a { color: #1a6fc4; font-weight: 600; }
 
     /* ── TABS ── */
     .tabs {
@@ -358,25 +313,8 @@
 
   <main class="content">
 
-    <div class="disclaimer">
-      <p class="disclaimer-label">⚠ Disclaimer</p>
-      <ol>
-        <li>Rankings are based on data sent by colleges only.</li>
-        <li>Sports and other marks included, IF provided by the college.</li>
-        <li>Rankings are for information only. This is not official data and may change.</li>
-      </ol>
-    </div>
-
-    <div class="college-cta">
-      <p class="cta-heading">📩 Colleges — Submit Your Toppers List</p>
-      <p class="cta-body">
-        Is your college missing from this list? Send your toppers' data to
-        <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a>.
-      </p>
-      <ul class="cta-rules">
-        <li><strong>Only colleges</strong> may submit data — individual students or parents cannot send results.</li>
-        <li>The email <strong>must include a college contact number</strong> for verification. Submissions without a contact number will not be considered.</li>
-      </ul>
+    <div class="info-bar">
+      ⚠ Data sent by colleges only · Sports marks included if provided · Not official · May change · Only 90%+ scorers listed &nbsp;|&nbsp; 📩 College missing? Email <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a> — colleges only, include contact number.
     </div>
 
     <div class="cutoff-notice">
