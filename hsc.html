@@ -116,26 +116,30 @@
       border-bottom: 2px solid #0a0a0a;
     }
     .tab-btn {
-      flex: 1;                        /* equal width, fill full row */
+      flex: 1;
       font-family: 'IBM Plex Sans', sans-serif;
       font-size: 0.85rem;
-      font-weight: 600;
-      padding: 13px 8px;             /* tall enough for thumbs */
+      font-weight: 700;
+      padding: 13px 8px;
       border: none;
       cursor: pointer;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.04em;
       border-right: 1.5px solid #0a0a0a;
-      transition: filter 0.15s;
-      color: #fff;
+      transition: background 0.15s, color 0.15s;
       -webkit-tap-highlight-color: transparent;
       touch-action: manipulation;
     }
     .tab-btn:last-child { border-right: none; }
-    .tab-btn[data-stream="Science"]  { background: #1a6fc4; }
-    .tab-btn[data-stream="Commerce"] { background: #c47a1a; }
-    .tab-btn[data-stream="Arts"]     { background: #8b1ac4; }
-    .tab-btn:not(.active) { filter: brightness(0.68); }
-    .tab-btn.active       { filter: brightness(1); }
+
+    /* inactive — dark bg, stream-coloured text, clearly tappable */
+    .tab-btn[data-stream="Science"]:not(.active)  { background: #111; color: #4da6ff; }
+    .tab-btn[data-stream="Commerce"]:not(.active) { background: #111; color: #ffaa33; }
+    .tab-btn[data-stream="Arts"]:not(.active)     { background: #111; color: #dd66ff; }
+
+    /* active — fluorescent bright, white text */
+    .tab-btn[data-stream="Science"].active  { background: #00aaff; color: #fff; }
+    .tab-btn[data-stream="Commerce"].active { background: #ff8800; color: #fff; }
+    .tab-btn[data-stream="Arts"].active     { background: #cc00ff; color: #fff; }
 
     /* ── 90% CUTOFF NOTICE ── */
     .cutoff-notice {
