@@ -16,7 +16,6 @@
       font-family: 'IBM Plex Sans', sans-serif;
       min-height: 100vh;
       padding-bottom: 40px;
-      /* prevent horizontal overflow on mobile */
       overflow-x: hidden;
     }
 
@@ -37,20 +36,12 @@
     }
     .hero-title {
       font-family: 'Playfair Display', serif;
-      font-size: 2.2rem;
+      font-size: 2rem;
       font-weight: 900;
-      line-height: 1.1;
+      line-height: 1.15;
       letter-spacing: -0.01em;
     }
     .hero-title .accent { color: #f5c518; }
-    .hero-sub {
-      font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 0.92rem;
-      font-weight: 400;
-      color: #ccc;
-      margin-top: 12px;
-      line-height: 1.65;
-    }
     .hero-year-badge {
       display: inline-block;
       margin-top: 18px;
@@ -74,27 +65,28 @@
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: #888;
-      margin-bottom: 20px;
+      margin-bottom: 16px;
       border-bottom: 1px solid #e0e0e0;
       padding-bottom: 10px;
     }
 
-    /* single column on mobile */
+    /* 2x2 grid always */
     .cards-grid {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 16px;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
     }
 
+    /* ── CARD ── */
     .card {
       border: 1.5px solid #0a0a0a;
       background: #fff;
-      padding: 20px 18px 20px;
+      padding: 16px 14px 14px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 8px;
       position: relative;
-      /* large touch target */
+      min-height: 130px;
       -webkit-tap-highlight-color: rgba(0,0,0,0.05);
     }
     .card.live {
@@ -102,13 +94,8 @@
       text-decoration: none;
       color: inherit;
     }
-    /* active state for touch */
-    .card.live:active {
-      background: #f4f4f4;
-    }
-    .card.pending {
-      opacity: 0.72;
-    }
+    .card.live:active { background: #f4f4f4; }
+    .card.pending { opacity: 0.75; }
 
     .card-top-bar {
       height: 4px;
@@ -117,170 +104,119 @@
     }
     .card-board-label {
       font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.63rem;
-      letter-spacing: 0.14em;
+      font-size: 0.58rem;
+      letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #888;
+      line-height: 1.3;
     }
     .card-title {
       font-family: 'Playfair Display', serif;
       font-weight: 700;
-      font-size: 1.4rem;
+      font-size: 1.15rem;
       line-height: 1.2;
     }
-    .card-class-tag {
-      display: inline-block;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.68rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      padding: 4px 10px;
-      border-radius: 2px;
-      width: fit-content;
-    }
     .card-status {
-      margin-top: 4px;
-      font-size: 0.82rem;
       font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      margin-top: auto;
     }
     .card-status.live-badge {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
       font-weight: 700;
-      font-size: 1rem;
+      font-size: 0.82rem;
       color: #ff1a1a;
       animation: textblink 1.1s ease-in-out infinite;
     }
     .card-status.live-badge::before {
       content: '';
-      display: inline-block;
-      width: 9px;
-      height: 9px;
+      width: 7px;
+      height: 7px;
       flex-shrink: 0;
       border-radius: 50%;
       background: #ff1a1a;
       animation: dotblink 1.1s ease-in-out infinite;
     }
-    @keyframes textblink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.45; }
-    }
-    @keyframes dotblink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.2; }
-    }
+    @keyframes textblink { 0%,100%{opacity:1} 50%{opacity:0.45} }
+    @keyframes dotblink  { 0%,100%{opacity:1} 50%{opacity:0.2}  }
+
     .card-status.pending-badge {
       font-weight: 600;
-      letter-spacing: 0.05em;
+      font-size: 0.7rem;
+      color: #b85c00;
       text-transform: uppercase;
-      font-size: 0.75rem;
-    }
-    .card-note {
-      font-size: 0.82rem;
-      color: #555;
-      line-height: 1.55;
-      font-family: 'IBM Plex Sans', sans-serif;
-    }
-    /* arrow only shows on desktop hover */
-    .card-arrow {
-      display: none;
+      letter-spacing: 0.04em;
+      line-height: 1.4;
     }
 
     /* colour variants */
-    .c-hsc   .card-top-bar { background: #1a6fc4; }
-    .c-hsc   .card-class-tag { background: #ddeeff; color: #1a4a8a; }
-    .c-hsc   .card-status.live-badge { color: #ff1a1a; }
-    .c-hsc   .card-status.live-badge::before { background: #ff1a1a; }
-
-    .c-ssc   .card-top-bar { background: #1a8c4a; }
-    .c-ssc   .card-class-tag { background: #ddf5e8; color: #1a5a30; }
-    .c-ssc   .card-status.pending-badge { color: #b85c00; }
-
+    .c-hsc    .card-top-bar { background: #1a6fc4; }
+    .c-ssc    .card-top-bar { background: #1a8c4a; }
     .c-cbse12 .card-top-bar { background: #c4431a; }
-    .c-cbse12 .card-class-tag { background: #fde8e0; color: #8a2010; }
-    .c-cbse12 .card-status.pending-badge { color: #b85c00; }
-
     .c-cbse10 .card-top-bar { background: #8b1ac4; }
-    .c-cbse10 .card-class-tag { background: #f0ddf5; color: #5a0a8a; }
-    .c-cbse10 .card-status.pending-badge { color: #b85c00; }
 
     /* ── COLLEGE CTA ── */
-    .college-cta {
-      margin: 32px 16px 0;
-    }
+    .college-cta { margin: 28px 16px 0; }
     .college-cta-inner {
       border: 1.5px solid #0a0a0a;
       background: #f0f7ff;
-      padding: 16px;
+      padding: 14px 16px;
     }
     .cta-heading {
       font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       font-weight: 600;
       letter-spacing: 0.06em;
-      margin-bottom: 8px;
+      margin-bottom: 7px;
     }
     .cta-body {
-      font-size: 0.85rem;
+      font-size: 0.84rem;
       margin-bottom: 8px;
       line-height: 1.55;
     }
-    .cta-body a {
-      color: #1a6fc4;
-      font-weight: 600;
-      /* make email link easy to tap */
-      display: inline-block;
-      padding: 2px 0;
-    }
-    .cta-rules {
-      padding-left: 18px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-    }
-    .cta-rules li {
-      font-size: 0.83rem;
-      line-height: 1.55;
-      color: #333;
-    }
+    .cta-body a { color: #1a6fc4; font-weight: 600; }
+    .cta-rules { padding-left: 16px; display: flex; flex-direction: column; gap: 5px; }
+    .cta-rules li { font-size: 0.82rem; line-height: 1.55; color: #333; }
 
     /* ── FOOTER ── */
     footer {
-      margin: 36px 16px 0;
+      margin: 32px 16px 0;
       padding-top: 14px;
       border-top: 1px solid #e0e0e0;
       font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.65rem;
+      font-size: 0.63rem;
       color: #888;
       display: flex;
       flex-direction: column;
       gap: 4px;
     }
 
-    /* ── TABLET & DESKTOP ── */
-    @media (min-width: 540px) {
+    @media (min-width: 600px) {
       .hero { padding: 40px 24px 36px; }
-      .hero-title { font-size: 2.8rem; }
-      .hero-sub { font-size: 1rem; }
+      .hero-title { font-size: 2.6rem; }
       .cards-section { padding: 36px 24px 0; }
-      .cards-grid { grid-template-columns: repeat(2, 1fr); gap: 18px; }
+      .cards-grid { gap: 16px; }
+      .card { min-height: 150px; padding: 20px 18px; }
+      .card-title { font-size: 1.3rem; }
       .college-cta { margin: 36px 24px 0; }
       footer { margin: 40px 24px 0; flex-direction: row; justify-content: space-between; }
     }
 
     @media (min-width: 900px) {
       .hero { padding: 48px 32px 40px; }
-      .hero-title { font-size: 3.6rem; }
-      .hero-sub { font-size: 1.1rem; max-width: 560px; margin-left: auto; margin-right: auto; }
-      .cards-section { max-width: 1040px; margin: 0 auto; padding: 48px 24px 0; }
-      .cards-grid { grid-template-columns: repeat(4, 1fr); }
-      .card.live:hover { transform: translateY(-3px); box-shadow: 4px 4px 0 #0a0a0a; }
-      .card-arrow { display: block; position: absolute; right: 18px; bottom: 20px; font-size: 1.2rem; opacity: 0; transition: opacity 0.15s, right 0.15s; }
-      .card.live:hover .card-arrow { opacity: 1; right: 12px; }
-      .college-cta { max-width: 1040px; margin: 40px auto 0; padding: 0 24px; }
-      .college-cta-inner { padding: 16px 20px; }
-      footer { max-width: 1040px; margin: 48px auto 0; padding: 16px 24px 0; font-size: 0.7rem; }
+      .hero-title { font-size: 3.2rem; }
+      .cards-section { max-width: 860px; margin: 0 auto; padding: 48px 24px 0; }
+      .cards-grid { gap: 20px; }
+      .card { min-height: 170px; padding: 24px 22px; }
+      .card-title { font-size: 1.5rem; }
+      .card-board-label { font-size: 0.65rem; }
+      .card-status.live-badge { font-size: 1rem; }
+      .card-status.pending-badge { font-size: 0.78rem; }
+      .card.live:hover { transform: translateY(-3px); box-shadow: 4px 4px 0 #0a0a0a; transition: transform 0.15s, box-shadow 0.15s; }
+      .college-cta { max-width: 860px; margin: 40px auto 0; padding: 0 24px; }
+      footer { max-width: 860px; margin: 40px auto 0; padding: 14px 24px 0; font-size: 0.68rem; }
     }
   </style>
 </head>
@@ -296,45 +232,32 @@
     <p class="cards-section-label">Select an exam to view toppers</p>
     <div class="cards-grid">
 
-      <!-- HSC — LIVE -->
       <a class="card live c-hsc" href="hsc.html">
         <div class="card-top-bar"></div>
-        <span class="card-board-label">Maharashtra State Board</span>
+        <span class="card-board-label">Maharashtra Board</span>
         <h2 class="card-title">HSC Toppers</h2>
-        <span class="card-class-tag">CLASS XII</span>
         <p class="card-status live-badge">Results Live</p>
-        <p class="card-note">Science · Commerce · Arts streams. Auto-refreshes every 15 min.</p>
-        <span class="card-arrow">→</span>
       </a>
 
-      <!-- SSC — PENDING -->
       <div class="card pending c-ssc">
         <div class="card-top-bar"></div>
-        <span class="card-board-label">Maharashtra State Board</span>
+        <span class="card-board-label">Maharashtra Board</span>
         <h2 class="card-title">SSC Toppers</h2>
-        <span class="card-class-tag">CLASS X</span>
-        <p class="card-status pending-badge">⏳ Yet to be declared</p>
-        <p class="card-note">Results expected shortly. Page goes live when results are announced.</p>
+        <p class="card-status pending-badge">⏳ Yet to be<br>declared</p>
       </div>
 
-      <!-- CBSE 12 — PENDING -->
       <div class="card pending c-cbse12">
         <div class="card-top-bar"></div>
         <span class="card-board-label">CBSE</span>
-        <h2 class="card-title">CBSE Toppers</h2>
-        <span class="card-class-tag">CLASS XII</span>
-        <p class="card-status pending-badge">⏳ Yet to be declared</p>
-        <p class="card-note">Results expected shortly. Page goes live when results are announced.</p>
+        <h2 class="card-title">CBSE Class XII</h2>
+        <p class="card-status pending-badge">⏳ Yet to be<br>declared</p>
       </div>
 
-      <!-- CBSE 10 — PENDING (special note) -->
       <div class="card pending c-cbse10">
         <div class="card-top-bar"></div>
         <span class="card-board-label">CBSE</span>
-        <h2 class="card-title">CBSE Toppers</h2>
-        <span class="card-class-tag">CLASS X</span>
-        <p class="card-status pending-badge">⏳ Yet to be declared</p>
-        <p class="card-note">Combined Results of Exam-1 &amp; Exam-2 awaited. Page will go live once declared.</p>
+        <h2 class="card-title">CBSE Class X</h2>
+        <p class="card-status pending-badge">⏳ Combined results<br>awaited</p>
       </div>
 
     </div>
@@ -348,8 +271,8 @@
         <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a>
       </p>
       <ul class="cta-rules">
-        <li><strong>Only colleges</strong> may submit data — individual students or parents cannot send results.</li>
-        <li>The email <strong>must include a college contact number</strong> for verification. Submissions without a contact number will not be considered.</li>
+        <li><strong>Only colleges</strong> may submit — individual students or parents cannot send results.</li>
+        <li>Email <strong>must include a college contact number</strong> for verification.</li>
       </ul>
     </div>
   </div>
