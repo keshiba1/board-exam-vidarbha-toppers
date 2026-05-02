@@ -171,11 +171,11 @@
     }
 
     /* Mobile column widths: Rank | Name | % | College | Branch(clips ok) */
-    col.col-rank    { width: 52px; }
-    col.col-name    { width: 30%; }
-    col.col-pct     { width: 60px; }
-    col.col-college { width: 34%; }
-    col.col-branch  { width: 22%; }
+    col.col-rank    { width: 48px; }
+    col.col-name    { width: 28%; }
+    col.col-pct     { width: 68px; }
+    col.col-college { width: 33%; }
+    col.col-branch  { width: 20%; }
 
     thead tr { background: #0a0a0a; color: #fafafa; }
     thead th {
@@ -250,12 +250,14 @@
       line-height: 1.35;
     }
 
-    /* % cell */
+    /* % cell — never clips, no % symbol */
     .td-pct {
       font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.82rem;
-      font-weight: 600;
-      text-align: right;
+      font-size: 0.76rem;
+      font-weight: 700;
+      text-align: center;
+      white-space: nowrap;
+      overflow: visible;
     }
 
     /* College cell */
@@ -512,7 +514,7 @@
               return `<tr>
                 <td class="td-rank">${r.medal ? `<span class="cell-medal">${r.medal}</span>` : ''}<span class="cell-rank-num">${r.rank}</span></td>
                 <td class="td-name"><span class="cell-firstname">${esc(firstName)}</span>${surname ? `<span class="cell-surname">${esc(surname)}</span>` : ''}</td>
-                <td class="td-pct">${r.pct.toFixed(2)}%</td>
+                <td class="td-pct">${r.pct.toFixed(2)}</td>
                 <td class="td-college">${esc(r.college)}</td>
                 <td class="td-branch">${esc(r.branch)}</td>
               </tr>`;
@@ -538,7 +540,7 @@
             <span class="cell-firstname">${esc(firstName)}</span>
             ${surname ? `<span class="cell-surname">${esc(surname)}</span>` : ''}
           </td>
-          <td class="td-pct">${r.pct.toFixed(2)}%</td>
+          <td class="td-pct">${r.pct.toFixed(2)}</td>
           <td class="td-college">${esc(r.college)}</td>
           <td class="td-branch">${esc(r.branch)}</td>
         </tr>`;
