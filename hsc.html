@@ -444,6 +444,11 @@
       return result;
     }
 
+    /* ── TITLE CASE (handles ALL CAPS input from sheet) ── */
+    function toTitleCase(str) {
+      return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+    }
+
     /* ── SORT & RANK ── */
     function sortRows(rows) {
       return rows.slice().sort((a, b) => {
@@ -520,7 +525,7 @@
       const sorted = sortRows(rows);
       assignRanks(sorted);
       tbody.innerHTML = sorted.map(r => {
-        const parts = r.name.trim().split(/\s+/);
+        const parts = toTitleCase(r.name.trim()).split(/\s+/);
         const firstName = parts[0] || '';
         const surname   = parts.slice(1).join(' ');
         return `
