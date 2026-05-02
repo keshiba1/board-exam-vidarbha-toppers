@@ -137,6 +137,19 @@
     .tab-btn:not(.active) { filter: brightness(0.68); }
     .tab-btn.active       { filter: brightness(1); }
 
+    /* ── 90% CUTOFF NOTICE ── */
+    .cutoff-notice {
+      background: #0a0a0a;
+      color: #f5c518;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 9px 14px;
+      letter-spacing: 0.04em;
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+
     /* ── TABLE ── */
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
@@ -144,29 +157,24 @@
     .table-wrap {
       border: 1.5px solid #0a0a0a;
       border-top: none;
-      /* no overflow-x — text wraps instead */
       overflow: hidden;
     }
 
     table {
       width: 100%;
-      table-layout: fixed;           /* equal column widths, forces wrapping */
+      table-layout: fixed;
       border-collapse: collapse;
       font-size: 0.85rem;
-      word-break: break-word;        /* wrap long names/colleges */
     }
 
-    /* column width hints for mobile */
-    col.col-name    { width: 28%; }
-    col.col-pct     { width: 16%; }
-    col.col-college { width: 30%; }
-    col.col-branch  { width: 14%; }
-    col.col-stream  { width: 12%; }
+    /* MOBILE column widths: 3 cols — Name | % | College+Branch */
+    col.col-name    { width: 38%; }
+    col.col-pct     { width: 18%; }
+    col.col-college { width: 44%; }
+    col.col-branch  { display: none; width: 0; }
+    col.col-stream  { display: none; width: 0; }
 
-    thead tr {
-      background: #0a0a0a;
-      color: #fafafa;
-    }
+    thead tr { background: #0a0a0a; color: #fafafa; }
     thead th {
       font-family: 'IBM Plex Mono', monospace;
       font-size: 0.6rem;
@@ -176,61 +184,62 @@
       padding: 10px 8px;
       text-align: left;
       border-right: 1px solid #333;
-      /* allow header text to wrap too */
-      word-break: break-word;
     }
     thead th:last-child { border-right: none; }
+    /* hide Branch + Stream headers on mobile */
+    thead th.th-branch,
+    thead th.th-stream { display: none; }
 
-    tbody tr {
-      border-bottom: 1px solid #cccccc;
-    }
+    tbody tr { border-bottom: 1px solid #cccccc; }
     tbody tr:last-child { border-bottom: none; }
-    tbody tr:active { background: #f0f0f0; }   /* touch feedback */
+    tbody tr:active { background: #f0f0f0; }
 
     td {
-      padding: 10px 10px;
+      padding: 10px 8px;
       border-right: 1px solid #cccccc;
-      vertical-align: middle;
+      vertical-align: top;
     }
     td:last-child { border-right: none; }
+    /* hide Branch + Stream cells on mobile */
+    td.td-branch, td.td-stream { display: none; }
 
-    .td-name {
-      font-weight: 600;
-      font-size: 0.88rem;
+    /* medal on its own line, name below */
+    .td-name { word-break: break-word; }
+    .cell-medal {
+      display: block;
+      font-size: 1.1rem;
+      line-height: 1.2;
+      margin-bottom: 2px;
     }
+    .cell-name {
+      display: block;
+      font-weight: 700;
+      font-size: 0.88rem;
+      line-height: 1.3;
+    }
+
+    /* % — never wraps */
     .td-pct {
       font-family: 'IBM Plex Mono', monospace;
       font-size: 0.85rem;
-    }
-    .td-college { }
-    .td-branch  { color: #555; font-size: 0.8rem; }
-
-    /* ── 90% CUTOFF NOTICE ── */
-    .cutoff-notice {
-      background: #0a0a0a;
-      color: #f5c518;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.78rem;
       font-weight: 600;
-      padding: 10px 14px;
-      letter-spacing: 0.04em;
-      line-height: 1.5;
-      margin-bottom: 0;
+      white-space: nowrap;
+      vertical-align: top;
     }
 
-    .stream-pill {
-      display: inline-block;
-      padding: 3px 6px;
-      border-radius: 20px;
-      font-size: 0.65rem;
-      font-weight: 600;
-      font-family: 'IBM Plex Mono', monospace;
-      letter-spacing: 0.04em;
-      word-break: normal;
+    /* college name + branch stacked in one cell */
+    .td-college-combined { word-break: break-word; }
+    .cell-college {
+      display: block;
+      font-size: 0.84rem;
+      line-height: 1.35;
     }
-    .pill-Science  { background: #ddeeff; color: #1a4a8a; }
-    .pill-Commerce { background: #fef3dd; color: #8a5010; }
-    .pill-Arts     { background: #f0ddf5; color: #5a0a8a; }
+    .cell-branch {
+      display: block;
+      font-size: 0.75rem;
+      color: #666;
+      margin-top: 2px;
+    }
 
     .error-row td {
       padding: 20px 12px;
@@ -267,11 +276,7 @@
     /* ── TABLET ── */
     @media (min-width: 600px) {
       header { padding: 20px 24px 24px; }
-      .header-inner {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-end;
-      }
+      .header-inner { flex-direction: row; justify-content: space-between; align-items: flex-end; }
       .header-title { font-size: 2rem; }
       .header-timer { flex-direction: column; align-items: flex-end; gap: 4px; }
       .content { padding: 24px 24px 0; }
@@ -280,6 +285,21 @@
       thead th { padding: 12px 14px; font-size: 0.68rem; }
       td { padding: 11px 14px; }
       footer { margin: 24px 24px 0; flex-direction: row; justify-content: space-between; font-size: 0.68rem; }
+
+      /* show Branch col on tablet+ */
+      col.col-name    { width: 28%; }
+      col.col-pct     { width: 12%; }
+      col.col-college { width: 32%; }
+      col.col-branch  { display: table-column; width: 18%; }
+      col.col-stream  { display: none; width: 0; }
+      thead th.th-branch { display: table-cell; }
+      thead th.th-stream { display: none; }
+      td.td-branch { display: table-cell; font-size: 0.82rem; color: #555; }
+      td.td-stream { display: none; }
+
+      /* restore flat name (no stacking needed at tablet) */
+      .cell-medal { display: inline; font-size: 1rem; margin-right: 4px; }
+      .cell-name  { display: inline; font-weight: 700; }
     }
 
     /* ── DESKTOP ── */
@@ -334,7 +354,7 @@
             <col class="col-name" /><col class="col-pct" /><col class="col-college" /><col class="col-branch" /><col class="col-stream" />
           </colgroup>
           <thead><tr>
-            <th>Student Name</th><th>%</th><th>College</th><th>Branch</th><th>Stream</th>
+            <th>Student Name</th><th>%</th><th>College</th><th class="th-branch">Branch</th><th class="th-stream">Stream</th>
           </tr></thead>
           <tbody id="tbody-Science"><tr class="loading-row"><td colspan="5">Loading…</td></tr></tbody>
         </table>
@@ -348,7 +368,7 @@
             <col class="col-name" /><col class="col-pct" /><col class="col-college" /><col class="col-branch" /><col class="col-stream" />
           </colgroup>
           <thead><tr>
-            <th>Student Name</th><th>%</th><th>College</th><th>Branch</th><th>Stream</th>
+            <th>Student Name</th><th>%</th><th>College</th><th class="th-branch">Branch</th><th class="th-stream">Stream</th>
           </tr></thead>
           <tbody id="tbody-Commerce"><tr class="loading-row"><td colspan="5">Loading…</td></tr></tbody>
         </table>
@@ -362,7 +382,7 @@
             <col class="col-name" /><col class="col-pct" /><col class="col-college" /><col class="col-branch" /><col class="col-stream" />
           </colgroup>
           <thead><tr>
-            <th>Student Name</th><th>%</th><th>College</th><th>Branch</th><th>Stream</th>
+            <th>Student Name</th><th>%</th><th>College</th><th class="th-branch">Branch</th><th class="th-stream">Stream</th>
           </tr></thead>
           <tbody id="tbody-Arts"><tr class="loading-row"><td colspan="5">Loading…</td></tr></tbody>
         </table>
@@ -456,14 +476,19 @@
       }
       const sorted = sortRows(rows);
       assignMedals(sorted);
-      const pillClass = 'pill-' + (stream || 'Science');
       tbody.innerHTML = sorted.map(r => `
         <tr>
-          <td class="td-name">${r.medal ? r.medal + ' ' : ''}${esc(r.name)}</td>
+          <td class="td-name">
+            ${r.medal ? `<span class="cell-medal">${r.medal}</span>` : ''}
+            <span class="cell-name">${esc(r.name)}</span>
+          </td>
           <td class="td-pct">${r.pct.toFixed(2)}%</td>
-          <td class="td-college">${esc(r.college)}</td>
+          <td class="td-college-combined">
+            <span class="cell-college">${esc(r.college)}</span>
+            ${r.branch ? `<span class="cell-branch">${esc(r.branch)}</span>` : ''}
+          </td>
           <td class="td-branch">${esc(r.branch)}</td>
-          <td><span class="stream-pill ${esc(pillClass)}">${esc(r.stream || stream)}</span></td>
+          <td class="td-stream"></td>
         </tr>
       `).join('');
     }
