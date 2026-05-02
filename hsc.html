@@ -481,49 +481,11 @@
       });
     }
 
-    const SAMPLE_DATA = {
-      Science: [
-        { name: 'Priya Deshmukh',    pct: 99.17, college: 'Hislop College',            branch: 'Nagpur Main'   },
-        { name: 'Rahul Sharma',      pct: 99.17, college: 'Dharampeth Science College', branch: 'Dharampeth'   },
-        { name: 'Sneha Wankhede',    pct: 98.60, college: 'Hislop College',            branch: 'Nagpur Main'   },
-        { name: 'Amit Kulkarni',     pct: 97.40, college: 'Bhavan\'s College',          branch: ''             },
-        { name: 'Pooja Bhat',        pct: 96.80, college: 'Nagpur Science College',    branch: 'Civil Lines'  },
-      ],
-      Commerce: [
-        { name: 'Rohan Tiwari',      pct: 98.20, college: 'Dharampeth Commerce College', branch: '' },
-        { name: 'Ananya Joshi',      pct: 97.60, college: 'Hislop College',              branch: 'Nagpur Main' },
-        { name: 'Vikram Nair',       pct: 96.40, college: 'Nagpur Commerce College',     branch: '' },
-      ],
-      Arts: [
-        { name: 'Kavya Mishra',      pct: 97.80, college: 'Morris College of Arts',     branch: '' },
-        { name: 'Siddharth Pawar',   pct: 96.20, college: 'Hislop College',             branch: 'Nagpur Main' },
-      ],
-    };
-
     /* ── RENDER TABLE ── */
     function renderTable(stream, rows) {
       const tbody = document.getElementById('tbody-' + stream);
       if (!rows || rows.length === 0) {
-        // show sample data with a notice
-        const samples = (SAMPLE_DATA[stream] || []).map(r => ({ ...r, stream }));
-        if (samples.length) {
-          const sorted = sortRows(samples);
-          assignRanks(sorted);
-          tbody.innerHTML =
-            `<tr class="loading-row"><td colspan="5" style="text-align:center;padding:6px 8px;font-size:0.68rem;background:#fff8e1;color:#b85c00;white-space:normal;">— Sample data for layout preview — real data will appear here —</td></tr>` +
-            sorted.map(r => {
-              const parts = r.name.trim().split(/\s+/);
-              const firstName = parts[0] || '';
-              const surname   = parts.slice(1).join(' ');
-              return `<tr>
-                <td class="td-rank">${r.medal ? `<span class="cell-medal">${r.medal}</span>` : ''}<span class="cell-rank-num">${r.rank}</span></td>
-                <td class="td-name"><span class="cell-firstname">${esc(firstName)}</span>${surname ? `<span class="cell-surname">${esc(surname)}</span>` : ''}</td>
-                <td class="td-pct">${r.pct.toFixed(2)}</td>
-                <td class="td-college">${esc(r.college)}</td>
-                <td class="td-branch">${esc(r.branch)}</td>
-              </tr>`;
-            }).join('');
-        } else {
+        {
           tbody.innerHTML = '<tr class="loading-row"><td colspan="5">No data found.</td></tr>';
         }
         return;
