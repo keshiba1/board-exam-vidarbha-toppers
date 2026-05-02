@@ -434,14 +434,14 @@
   </main>
 
   <footer>
-    <span class="footer-left">Auto-refreshes every 15 min · Last updated: <span id="last-updated">—</span></span>
+    <span class="footer-left">Auto-refreshes every 5 min · Last updated: <span id="last-updated">—</span></span>
     <span class="footer-right">👁 Total visitors: <span id="visitor-count">—</span></span>
   </footer>
 
   <script>
     const SHEET_ID = '1FfTuKTABgxtthwDHut6S5qbH6fS71o4MVLFS_JlZKYw';
     const STREAMS  = ['Science', 'Commerce', 'Arts'];
-    const REFRESH_SECONDS = 15 * 60;
+    const REFRESH_SECONDS = 5 * 60;
 
     /* ── TABS ── */
     document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -559,18 +559,35 @@
         new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
     }
 
-    /* ── COUNTDOWN ── */
-    let secondsLeft = REFRESH_SECONDS;
+    /* ── COUNTDOWN (persists across browser refresh via localStorage) ── */
+    const STORAGE_KEY = 'hsc_last_fetch';
     const countdownEl = document.getElementById('countdown');
 
-    function tickCountdown() {
-      secondsLeft--;
-      if (secondsLeft <= 0) { secondsLeft = REFRESH_SECONDS; fetchAll(); }
-      const m = String(Math.floor(secondsLeft / 60)).padStart(2, '0');
-      const s = String(secondsLeft % 60).padStart(2, '0');
-      countdownEl.textContent = `${m}:${s}`;
+    function getSecondsLeft() {
+      const last = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
+      const elapsed = Math.floor((Date.now() - last) / 1000);
+      return Math.max(0, REFRESH_SECONDS - elapsed);
     }
+
+    function tickCountdown() {
+      const secondsLeft = getSecondsLeft();
+      if (secondsLeft <= 0) {
+        localStorage.setItem(STORAGE_KEY, Date.now());
+        fetchAll();
+      }
+      const s = getSecondsLeft();
+      const m = String(Math.floor(s / 60)).padStart(2, '0');
+      const sec = String(s % 60).padStart(2, '0');
+      countdownEl.textContent = `${m}:${sec}`;
+    }
+
+    // On first load, if never fetched or overdue, fetch immediately
+    if (getSecondsLeft() <= 0) {
+      localStorage.setItem(STORAGE_KEY, Date.now());
+    }
+
     setInterval(tickCountdown, 1000);
+    tickCountdown();
 
     /* ── VISITOR COUNTER ── */
     async function fetchVisitors() {
