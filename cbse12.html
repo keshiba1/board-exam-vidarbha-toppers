@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vidarbha CBSE Class XII Toppers 2026 — Top 100 Per Stream</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #fafafa;
+      color: #0a0a0a;
+      font-family: 'IBM Plex Sans', sans-serif;
+      min-height: 100vh;
+      padding-bottom: 48px;
+      overflow-x: hidden;
+    }
+
+    /* ── BACK NAV ── */
+    .back-nav { background: #0a0a0a; padding: 0; }
+    .back-nav a {
+      display: flex;
+      align-items: center;
+      padding: 13px 16px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      color: #aaa;
+      text-decoration: none;
+      text-transform: uppercase;
+      min-height: 44px;
+    }
+    .back-nav a:active { color: #fff; }
+
+    /* ── HEADER ── */
+    header {
+      background: #0a0a0a;
+      color: #fafafa;
+      padding: 16px 16px 20px;
+      border-bottom: 2px solid #fafafa;
+    }
+    .header-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .header-eyebrow {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 5px;
+    }
+    .header-title {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: 1.7rem;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+    }
+    .header-prestige {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 5px 11px;
+      background: #fafafa;
+      color: #0a0a0a;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.66rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      border: 1.5px solid #fafafa;
+    }
+    .header-timer { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .timer-label {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: #888;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    #countdown {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: #fafafa;
+    }
+
+    /* ── MAIN CONTENT ── */
+    .content { padding: 20px 16px 0; }
+
+    /* ── INFO BAR ── */
+    .info-bar {
+      background: #fffbe6;
+      border: 1px solid #d4c800;
+      border-left: 4px solid #d4c800;
+      padding: 8px 12px;
+      margin-bottom: 14px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.68rem;
+      color: #555;
+      line-height: 1.7;
+    }
+    .info-bar a { color: #0a0a0a; font-weight: 600; text-decoration: underline; }
+
+    /* ── TABS — black & white only ── */
+    .tabs {
+      display: flex;
+      gap: 0;
+      border-bottom: 2px solid #0a0a0a;
+    }
+    .tab-btn {
+      flex: 1;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 13px 8px;
+      border: none;
+      cursor: pointer;
+      letter-spacing: 0.04em;
+      border-right: 1.5px solid #0a0a0a;
+      transition: background 0.15s, color 0.15s;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+      background: #fafafa;
+      color: #555;
+      text-transform: uppercase;
+    }
+    .tab-btn:last-child { border-right: none; }
+    .tab-btn:not(.active) { background: #fafafa; color: #555; }
+    .tab-btn.active { background: #0a0a0a; color: #fafafa; }
+
+    /* ── TOP 100 PRESTIGE STRIP ── */
+    .cutoff-notice {
+      background: #0a0a0a;
+      color: #f5c518;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 11px 14px;
+      letter-spacing: 0.05em;
+      line-height: 1.5;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    .cutoff-notice .star { color: #f5c518; }
+
+    /* ── TABLE ── */
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    .table-wrap {
+      border: 1.5px solid #0a0a0a;
+      border-top: none;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+      width: 100%;
+      table-layout: fixed;
+      border-collapse: collapse;
+      font-size: 0.84rem;
+      white-space: nowrap;
+    }
+
+    col.col-rank    { width: 48px; }
+    col.col-name    { width: 28%; }
+    col.col-pct     { width: 68px; }
+    col.col-college { width: 33%; }
+    col.col-branch  { width: 20%; }
+
+    thead tr { background: #0a0a0a; color: #fafafa; }
+    thead th {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.58rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 10px 8px;
+      text-align: left;
+      border-right: 1px solid #333;
+      overflow: hidden;
+    }
+    thead th.th-rank { text-align: center; }
+    thead th:last-child { border-right: none; }
+
+    tbody tr { border-bottom: 1px solid #cccccc; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:active { background: #f0f0f0; }
+
+    td {
+      padding: 9px 8px;
+      border-right: 1px solid #cccccc;
+      vertical-align: middle;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    td:last-child { border-right: none; }
+
+    .td-rank { text-align: center; vertical-align: middle; padding: 6px 4px; }
+    .cell-medal { display: block; font-size: 1.1rem; line-height: 1.1; }
+    .cell-rank-num {
+      display: block;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.78rem;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #444;
+    }
+
+    .td-name { white-space: normal; vertical-align: middle; }
+    .cell-firstname { display: block; font-weight: 700; font-size: 0.88rem; line-height: 1.25; }
+    .cell-surname   { display: block; font-weight: 600; font-size: 0.82rem; line-height: 1.25; color: #333; }
+
+    .td-college {
+      white-space: normal;
+      word-break: break-word;
+      font-size: 0.84rem;
+      vertical-align: middle;
+      line-height: 1.35;
+    }
+
+    .td-pct {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.76rem;
+      font-weight: 700;
+      text-align: center;
+      white-space: nowrap;
+      overflow: visible;
+    }
+
+    .td-branch { font-size: 0.8rem; color: #555; }
+
+    .error-row td, .loading-row td {
+      padding: 20px 12px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.8rem;
+      text-align: center;
+      border-right: none;
+      white-space: normal;
+    }
+    .error-row td   { color: #b85c00; }
+    .loading-row td { color: #888; }
+
+    /* ── FOOTER ── */
+    footer {
+      margin: 20px 16px 0;
+      padding-top: 14px;
+      border-top: 1px solid #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .footer-left, .footer-right {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.63rem;
+      color: #888;
+    }
+
+    /* ── TABLET+ ── */
+    @media (min-width: 600px) {
+      header { padding: 20px 24px 24px; }
+      .header-inner { flex-direction: row; justify-content: space-between; align-items: flex-end; }
+      .header-title { font-size: 2rem; }
+      .header-timer { flex-direction: column; align-items: flex-end; gap: 4px; }
+      .content { padding: 24px 24px 0; }
+      .tab-btn { font-size: 0.9rem; padding: 12px 20px; flex: none; }
+      table { font-size: 0.88rem; }
+      thead th { padding: 12px 10px; font-size: 0.65rem; }
+      td { padding: 11px 10px; }
+      footer { margin: 24px 24px 0; flex-direction: row; justify-content: space-between; font-size: 0.68rem; }
+    }
+
+    /* ── DESKTOP ── */
+    @media (min-width: 900px) {
+      .content { max-width: 1100px; margin: 0 auto; padding: 28px 24px 0; }
+      .header-title { font-size: 2.6rem; }
+      #countdown { font-size: 1.5rem; }
+      tbody tr:hover { background: #f0f0f0; }
+      footer { max-width: 1100px; margin: 20px auto 0; padding: 14px 24px 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="back-nav">
+    <a href="index.html">← Back to Home</a>
+  </div>
+
+  <header>
+    <div class="header-inner">
+      <div class="header-left">
+        <p class="header-eyebrow">CBSE · Class XII · 2026</p>
+        <h1 class="header-title">Vidarbha CBSE Class XII Toppers 2026</h1>
+        <span class="header-prestige">★ Top 100 Per Stream — A Mark Of Distinction</span>
+      </div>
+      <div class="header-timer">
+        <span class="timer-label">Rankings update in:</span>
+        <div id="countdown">15:00</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <div class="info-bar">
+      Data sent by schools, Not Board &nbsp;|&nbsp; Sports &amp; other marks included if provided &nbsp;|&nbsp; <b>Top 100 rankings per stream</b> &nbsp;|&nbsp; 🏫 School missing? Email <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a> — include contact number for clarification
+    </div>
+
+    <div class="cutoff-notice">
+      <span class="star">★</span>&nbsp; The Top 100 Per Stream — making it on this list is the prestige &nbsp;<span class="star">★</span>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-stream="Science">Science</button>
+      <button class="tab-btn" data-stream="Commerce">Commerce</button>
+      <button class="tab-btn" data-stream="Humanities">Humanities</button>
+    </div>
+
+    <div id="panel-Science" class="tab-panel active">
+      <div class="table-wrap">
+        <table>
+          <colgroup>
+            <col class="col-rank" /><col class="col-name" /><col class="col-pct" /><col class="col-college" /><col class="col-branch" />
+          </colgroup>
+          <thead><tr>
+            <th class="th-rank">Rank</th><th>Student Name</th><th>%</th><th>School</th><th>City</th>
+          </tr></thead>
+          <tbody id="tbody-Science"><tr class="loading-row"><td colspan="5">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="panel-Commerce" class="tab-panel">
+      <div class="table-wrap">
+        <table>
+          <colgroup>
+            <col class="col-rank" /><col class="col-name" /><col class="col-pct" /><col class="col-college" /><col class="col-branch" />
+          </colgroup>
+          <thead><tr>
+            <th class="th-rank">Rank</th><th>Student Name</th><th>%</th><th>School</th><th>City</th>
+          </tr></thead>
+          <tbody id="tbody-Commerce"><tr class="loading-row"><td colspan="5">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="panel-Humanities" class="tab-panel">
+      <div class="table-wrap">
+        <table>
+          <colgroup>
+            <col class="col-rank" /><col class="col-name" /><col class="col-pct" /><col class="col-college" /><col class="col-branch" />
+          </colgroup>
+          <thead><tr>
+            <th class="th-rank">Rank</th><th>Student Name</th><th>%</th><th>School</th><th>City</th>
+          </tr></thead>
+          <tbody id="tbody-Humanities"><tr class="loading-row"><td colspan="5">Loading…</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <span class="footer-left">Auto-refreshes every 12 hrs · Last updated: <span id="last-updated">—</span></span>
+    <span class="footer-right">👁 Total visitors: <span id="visitor-count">—</span></span>
+  </footer>
+
+  <script>
+    // SHEET_ID gets filled in after setupCBSE12Sheet_RUN_ONCE creates the sheet.
+    const SHEET_ID = '__CBSE12_SHEET_ID__';
+    const STREAMS  = ['Science', 'Commerce', 'Humanities'];
+    const REFRESH_SECONDS = 12 * 60 * 60;
+
+    /* ── TABS ── */
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('panel-' + btn.dataset.stream).classList.add('active');
+      });
+    });
+
+    /* ── CSV PARSING ── */
+    function parseCSV(text) {
+      const lines = text.trim().split('\n');
+      const rows = [];
+      for (let i = 1; i < lines.length; i++) {
+        const cols = splitCSVLine(lines[i]);
+        if (!cols[0] || cols[0].trim() === '') continue;
+        rows.push({
+          name:    (cols[0] || '').trim().replace(/^"|"$/g, ''),
+          pct:     parseFloat((cols[1] || '0').replace(/"/g, '').trim()) || 0,
+          college: (cols[2] || '').trim().replace(/^"|"$/g, ''),
+          branch:  (cols[3] || '').trim().replace(/^"|"$/g, ''),
+          stream:  (cols[4] || '').trim().replace(/^"|"$/g, ''),
+        });
+      }
+      return rows;
+    }
+
+    function splitCSVLine(line) {
+      const result = [];
+      let cur = '', inQ = false;
+      for (let i = 0; i < line.length; i++) {
+        const ch = line[i];
+        if (ch === '"') { inQ = !inQ; }
+        else if (ch === ',' && !inQ) { result.push(cur); cur = ''; }
+        else { cur += ch; }
+      }
+      result.push(cur);
+      return result;
+    }
+
+    function toTitleCase(str) {
+      return str.toLowerCase().replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    function sortRows(rows) {
+      return rows.slice().sort((a, b) => {
+        if (b.pct !== a.pct) return b.pct - a.pct;
+        return (a.name.split(' ')[0] || '').localeCompare(b.name.split(' ')[0] || '');
+      });
+    }
+
+    function assignRanks(sorted) {
+      const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉' };
+      let rank = 0;
+      let lastPct = null;
+      sorted.forEach(r => {
+        if (r.pct !== lastPct) { rank++; lastPct = r.pct; }
+        r.rank  = rank;
+        r.medal = MEDALS[rank] || '';
+      });
+    }
+
+    function renderTable(stream, rows) {
+      const tbody = document.getElementById('tbody-' + stream);
+      // Skip the (example) row from the freshly-created sheet
+      rows = (rows || []).filter(r => !/^\s*\(example\)/i.test(r.name));
+      if (rows.length === 0) {
+        tbody.innerHTML = '<tr class="loading-row"><td colspan="5">No data yet — results not declared. Check back after the CBSE Class XII results are announced.</td></tr>';
+        return;
+      }
+      const sorted = sortRows(rows).slice(0, 100);
+      assignRanks(sorted);
+      tbody.innerHTML = sorted.map(r => {
+        const parts = toTitleCase(r.name.trim()).split(/\s+/);
+        const firstName = parts[0] || '';
+        const surname   = parts.length > 1 ? parts[parts.length - 1] : '';
+        return `
+        <tr>
+          <td class="td-rank">
+            ${r.medal ? `<span class="cell-medal">${r.medal}</span>` : ''}
+            <span class="cell-rank-num">${r.rank}</span>
+          </td>
+          <td class="td-name">
+            <span class="cell-firstname">${esc(firstName)}</span>
+            ${surname ? `<span class="cell-surname">${esc(surname)}</span>` : ''}
+          </td>
+          <td class="td-pct">${r.pct.toFixed(2)}</td>
+          <td class="td-college">${esc(r.college)}</td>
+          <td class="td-branch">${esc(r.branch)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function esc(str) {
+      return String(str || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    async function fetchStream(stream) {
+      if (SHEET_ID === '__CBSE12_SHEET_ID__') {
+        document.getElementById('tbody-' + stream).innerHTML =
+          '<tr class="loading-row"><td colspan="5">⚙ Sheet not yet configured — please check back soon.</td></tr>';
+        return;
+      }
+      const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(stream)}&t=${Date.now()}`;
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const text = await res.text();
+        renderTable(stream, parseCSV(text));
+      } catch (e) {
+        document.getElementById('tbody-' + stream).innerHTML =
+          '<tr class="error-row"><td colspan="5">⚠ Could not load data. Will retry on next refresh.</td></tr>';
+      }
+    }
+
+    function fetchAll() {
+      STREAMS.forEach(fetchStream);
+      document.getElementById('last-updated').textContent =
+        new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+    }
+
+    /* ── COUNTDOWN ── */
+    const STORAGE_KEY = 'cbse12_last_fetch';
+    const countdownEl = document.getElementById('countdown');
+
+    function getSecondsLeft() {
+      const last = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
+      const elapsed = Math.floor((Date.now() - last) / 1000);
+      return Math.max(0, REFRESH_SECONDS - elapsed);
+    }
+
+    function tickCountdown() {
+      const secondsLeft = getSecondsLeft();
+      if (secondsLeft <= 0) {
+        localStorage.setItem(STORAGE_KEY, Date.now());
+        fetchAll();
+      }
+      const s = getSecondsLeft();
+      const h = String(Math.floor(s / 3600)).padStart(2, '0');
+      const m = String(Math.floor((s % 3600) / 60)).padStart(2, '0');
+      const sec = String(s % 60).padStart(2, '0');
+      countdownEl.textContent = `${h}:${m}:${sec}`;
+    }
+
+    if (getSecondsLeft() <= 0) {
+      localStorage.setItem(STORAGE_KEY, Date.now());
+    }
+
+    setInterval(tickCountdown, 1000);
+    tickCountdown();
+
+    /* ── VISITOR COUNTER (separate counter, no offset, starts from 0) ── */
+    async function fetchVisitors() {
+      const el = document.getElementById('visitor-count');
+      try {
+        const res  = await fetch('https://abacus.jasoncameron.dev/hit/vidarbha-toppers/cbse12-visits?_=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        const n = Number(data.value);
+        if (!Number.isFinite(n)) throw new Error('Bad count: ' + JSON.stringify(data));
+        el.textContent = n.toLocaleString('en-IN');
+      } catch (err) {
+        console.error('[visitor-counter]', err);
+        el.textContent = '—';
+      }
+    }
+
+    fetchAll();
+    fetchVisitors();
+  </script>
+</body>
+</html>
