@@ -465,17 +465,10 @@
 
     function assignRanks(sorted) {
       const MEDALS = { 1: '🥇', 2: '🥈', 3: '🥉' };
-      let rank = 1;
+      let rank = 0;
       let lastPct = null;
-      let lastRank = 1;
-      sorted.forEach((r, i) => {
-        if (r.pct !== lastPct) {
-          rank = i + 1;          // dense-ish: rank = actual position
-          lastPct = r.pct;
-          lastRank = rank;
-        } else {
-          rank = lastRank;       // tie — repeat same rank
-        }
+      sorted.forEach(r => {
+        if (r.pct !== lastPct) { rank++; lastPct = r.pct; }
         r.rank  = rank;
         r.medal = MEDALS[rank] || '';
       });
