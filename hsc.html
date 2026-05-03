@@ -342,11 +342,11 @@
   <main class="content">
 
     <div class="info-bar">
-      Data sent by schools &amp; junior colleges, Not Board &nbsp;|&nbsp; Sports &amp; other marks included if provided &nbsp;|&nbsp; Only 90%+ scorers listed &nbsp;|&nbsp; 🏫 School or college missing? Email <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a> — include contact number for clarification
+      Data sent by schools &amp; junior colleges, Not Board &nbsp;|&nbsp; Sports &amp; other marks included if provided &nbsp;|&nbsp; Top 100 rankings per stream &nbsp;|&nbsp; 🏫 School or college missing? Email <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a> — include contact number for clarification
     </div>
 
     <div class="cutoff-notice">
-      ★ Only students scoring <strong>90% and above</strong> are included in this ranking.
+      ★ Showing Top 100 ranked students per stream
     </div>
 
     <div class="tabs">
@@ -490,7 +490,7 @@
         }
         return;
       }
-      const sorted = sortRows(rows);
+      const sorted = sortRows(rows).slice(0, 100);
       assignRanks(sorted);
       tbody.innerHTML = sorted.map(r => {
         const parts = toTitleCase(r.name.trim()).split(/\s+/);
