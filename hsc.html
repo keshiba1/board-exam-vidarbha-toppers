@@ -575,13 +575,17 @@
 
     /* ── VISITOR COUNTER ── */
     async function fetchVisitors() {
+      const el = document.getElementById('visitor-count');
       try {
-        const res  = await fetch('https://api.counterapi.dev/v1/vidarbha-toppers/site-visits/up');
+        const res  = await fetch('https://api.counterapi.dev/v1/vidarbha-toppers/site-visits/up?_=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
         const data = await res.json();
-        document.getElementById('visitor-count').textContent =
-          (Number(data.count) + 102).toLocaleString('en-IN');
-      } catch (_) {
-        document.getElementById('visitor-count').textContent = '—';
+        const n = Number(data.count);
+        if (!Number.isFinite(n)) throw new Error('Bad count: ' + JSON.stringify(data));
+        el.textContent = (n + 102).toLocaleString('en-IN');
+      } catch (err) {
+        console.error('[visitor-counter]', err);
+        el.textContent = '—';
       }
     }
 
