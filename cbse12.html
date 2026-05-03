@@ -109,7 +109,7 @@
     }
     .info-bar a { color: #0a0a0a; font-weight: 600; text-decoration: underline; }
 
-    /* ── TABS — black & white only ── */
+    /* ── TABS ── */
     .tabs {
       display: flex;
       gap: 0;
@@ -128,13 +128,18 @@
       transition: background 0.15s, color 0.15s;
       -webkit-tap-highlight-color: transparent;
       touch-action: manipulation;
-      background: #fafafa;
-      color: #555;
-      text-transform: uppercase;
     }
     .tab-btn:last-child { border-right: none; }
-    .tab-btn:not(.active) { background: #fafafa; color: #555; }
-    .tab-btn.active { background: #0a0a0a; color: #fafafa; }
+
+    /* inactive — dark bg, stream-coloured text */
+    .tab-btn[data-stream="Science"]:not(.active)    { background: #111; color: #4da6ff; }
+    .tab-btn[data-stream="Commerce"]:not(.active)   { background: #111; color: #ffaa33; }
+    .tab-btn[data-stream="Humanities"]:not(.active) { background: #111; color: #dd66ff; }
+
+    /* active — fluorescent bright, white text */
+    .tab-btn[data-stream="Science"].active    { background: #00aaff; color: #fff; }
+    .tab-btn[data-stream="Commerce"].active   { background: #ff8800; color: #fff; }
+    .tab-btn[data-stream="Humanities"].active { background: #cc00ff; color: #fff; }
 
     /* ── TOP 100 PRESTIGE STRIP ── */
     .cutoff-notice {
@@ -315,7 +320,7 @@
     </div>
 
     <div class="cutoff-notice">
-      <span class="star">★</span>&nbsp; The Top 100 Per Stream — making it on this list is the prestige &nbsp;<span class="star">★</span>
+      ★ View Top 100 Ranked Students
     </div>
 
     <div class="tabs">
