@@ -495,7 +495,7 @@
       tbody.innerHTML = sorted.map(r => {
         const parts = toTitleCase(r.name.trim()).split(/\s+/);
         const firstName = parts[0] || '';
-        const surname   = parts.slice(1).join(' ');
+        const surname   = parts.length > 1 ? parts[parts.length - 1] : '';
         return `
         <tr>
           <td class="td-rank">
