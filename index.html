@@ -151,6 +151,22 @@
     @keyframes textblink { 0%,100%{opacity:1} 50%{opacity:0.45} }
     @keyframes dotblink  { 0%,100%{opacity:1} 50%{opacity:0.2}  }
 
+    .card-status.declared-badge {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-weight: 700;
+      font-size: 0.82rem;
+      color: #1a8c4a;
+      line-height: 1.3;
+    }
+    .card-status.declared-badge::before {
+      content: '✓';
+      font-size: 0.95rem;
+      font-weight: 900;
+      color: #1a8c4a;
+    }
+
     .card-status.pending-badge {
       font-weight: 600;
       font-size: 0.7rem;
@@ -222,6 +238,7 @@
       .card-title { font-size: 1.5rem; }
       .card-board-label { font-size: 0.65rem; }
       .card-status.live-badge { font-size: 1rem; }
+      .card-status.declared-badge { font-size: 0.92rem; }
       .card-status.pending-badge { font-size: 0.78rem; }
       .card.live:hover { transform: translateY(-3px); box-shadow: 4px 4px 0 #0a0a0a; transition: transform 0.15s, box-shadow 0.15s; }
       .college-cta { max-width: 860px; margin: 40px auto 0; padding: 0 24px; }
@@ -246,7 +263,7 @@
         <div class="card-top-bar"></div>
         <span class="card-board-label">Maharashtra Board</span>
         <h2 class="card-title">HSC Toppers</h2>
-        <p class="card-status live-badge">Results Live</p>
+        <p class="card-status declared-badge">Results declared on May 2</p>
       </a>
 
       <div class="card pending c-ssc">
