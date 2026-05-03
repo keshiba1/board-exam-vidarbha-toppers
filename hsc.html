@@ -579,7 +579,7 @@
         const res  = await fetch('https://hits.sh/vidarbha-board-exam-toppers.duckdns.org.json');
         const data = await res.json();
         document.getElementById('visitor-count').textContent =
-          Number(data.hits).toLocaleString('en-IN');
+          (Number(data.hits) + 102).toLocaleString('en-IN');
       } catch (_) {
         document.getElementById('visitor-count').textContent = '—';
       }
