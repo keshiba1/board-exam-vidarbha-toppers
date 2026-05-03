@@ -576,10 +576,10 @@
     /* ── VISITOR COUNTER ── */
     async function fetchVisitors() {
       try {
-        const res  = await fetch('https://api.countapi.xyz/hit/vidarbha-hsc-toppers-2026/visits');
+        const res  = await fetch('https://hits.sh/vidarbha-board-exam-toppers.duckdns.org.json');
         const data = await res.json();
         document.getElementById('visitor-count').textContent =
-          Number(data.value).toLocaleString('en-IN');
+          Number(data.hits).toLocaleString('en-IN');
       } catch (_) {
         document.getElementById('visitor-count').textContent = '—';
       }
