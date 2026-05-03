@@ -577,10 +577,10 @@
     async function fetchVisitors() {
       const el = document.getElementById('visitor-count');
       try {
-        const res  = await fetch('https://api.counterapi.dev/v1/vidarbha-toppers/site-visits/up?_=' + Date.now(), { cache: 'no-store' });
+        const res  = await fetch('https://abacus.jasoncameron.dev/hit/vidarbha-toppers/site-visits?_=' + Date.now(), { cache: 'no-store' });
         if (!res.ok) throw new Error('HTTP ' + res.status);
         const data = await res.json();
-        const n = Number(data.count);
+        const n = Number(data.value);
         if (!Number.isFinite(n)) throw new Error('Bad count: ' + JSON.stringify(data));
         el.textContent = (n + 102).toLocaleString('en-IN');
       } catch (err) {
