@@ -330,8 +330,25 @@
 
   <footer>
     <span>vidarbha-board-exam-toppers.duckdns.org</span>
-    <span>Data sourced from colleges · For informational purposes only</span>
+    <span>Data sourced from schools &amp; junior colleges · For informational purposes only</span>
+    <span>👁 Total visitors: <span id="visitor-count">—</span></span>
   </footer>
+
+  <script>
+    (async function fetchVisitors() {
+      const el = document.getElementById('visitor-count');
+      try {
+        const res  = await fetch('https://abacus.jasoncameron.dev/hit/vidarbha-toppers/home-visits?_=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const data = await res.json();
+        const n = Number(data.value);
+        if (!Number.isFinite(n)) throw new Error('Bad count');
+        el.textContent = n.toLocaleString('en-IN');
+      } catch (err) {
+        el.textContent = '—';
+      }
+    })();
+  </script>
 
 </body>
 </html>
