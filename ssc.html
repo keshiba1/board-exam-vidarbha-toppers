@@ -6,7 +6,7 @@
   <title>Vidarbha SSC Class 10 Toppers 2026 — Top 100 Students</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:wght@400;500&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -19,108 +19,84 @@
       overflow-x: hidden;
     }
 
-    .back-nav { background: #0a0a0a; padding: 0; }
+    .back-nav {
+      background: #0a0a0a;
+      border-bottom: 1px solid #1e1e1e;
+    }
     .back-nav a {
       display: flex;
       align-items: center;
-      padding: 13px 16px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.7rem;
-      letter-spacing: 0.1em;
-      color: #aaa;
+      padding: 12px 20px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.3em;
+      color: #c9a84c;
       text-decoration: none;
       text-transform: uppercase;
       min-height: 44px;
+      transition: color 0.15s;
     }
-    .back-nav a:active { color: #fff; }
+    .back-nav a:hover { color: #e0c070; }
 
-    /* SSC accent colour: deep saffron */
-    header {
+    .brand-banner {
       background: #0a0a0a;
       color: #fafafa;
-      padding: 16px 16px 20px;
-      border-bottom: 3px solid #ff8800;
-    }
-    .header-inner {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-    .header-eyebrow {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.6rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: #ffaa55;
-      margin-bottom: 5px;
-    }
-    .header-title {
-      font-family: 'Playfair Display', serif;
-      font-weight: 900;
-      font-size: 1.7rem;
-      line-height: 1.15;
-      letter-spacing: -0.01em;
-    }
-    .header-prestige {
-      display: inline-block;
-      margin-top: 12px;
-      padding: 5px 11px;
-      background: #ff8800;
-      color: #0a0a0a;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.66rem;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      border: 1.5px solid #ff8800;
-    }
-    .header-timer { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-    .timer-label {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.65rem;
-      letter-spacing: 0.1em;
-      color: #ffaa55;
-      text-transform: uppercase;
-      white-space: nowrap;
-    }
-    #countdown {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 1.4rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      color: #fafafa;
-    }
-
-    .content { padding: 20px 16px 0; }
-
-    .info-bar {
-      background: #fff5e6;
-      border: 1px solid #ff8800;
-      border-left: 4px solid #ff8800;
-      padding: 8px 12px;
-      margin-bottom: 14px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.68rem;
-      color: #555;
-      line-height: 1.7;
-    }
-    .info-bar a { color: #0a0a0a; font-weight: 600; text-decoration: underline; }
-
-    .cutoff-notice {
-      background: #0a0a0a;
-      color: #ffaa33;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.78rem;
-      font-weight: 700;
-      padding: 11px 14px;
-      letter-spacing: 0.05em;
-      line-height: 1.5;
+      padding: 36px 20px 32px;
+      border-top: 3px solid #c9a84c;
+      border-bottom: 3px solid #c9a84c;
       text-align: center;
     }
+    .brand-eyebrow {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.5em;
+      text-transform: uppercase;
+      color: #c9a84c;
+      margin-bottom: 22px;
+    }
+    .brand-name {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+      color: #fff;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    .brand-num {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: clamp(3.4rem, 8vw, 6rem);
+      color: #c9a84c;
+      line-height: 0.9;
+      letter-spacing: -0.03em;
+    }
+    .brand-rule { width: 40px; height: 1px; background: #c9a84c; margin: 16px auto; }
+    .brand-tagline {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: #d4d4d4;
+    }
+    #countdown { display: none; }
+
+    .content { padding: 0 16px; }
+
+    .info-bar {
+      background: #0a0a0a;
+      border-bottom: 1px solid #1e1e1e;
+      padding: 12px 20px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: #fff;
+      line-height: 1.8;
+      text-align: center;
+    }
+    .info-bar a { color: #c9a84c; text-decoration: none; border-bottom: 1px solid #c9a84c44; }
 
     .table-wrap {
-      border: 1.5px solid #0a0a0a;
-      border-top: none;
+      border: 1px solid #e8e2d6;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
     }
@@ -141,22 +117,23 @@
 
     thead tr { background: #0a0a0a; color: #fafafa; }
     thead th {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.58rem;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.55rem;
       font-weight: 600;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.25em;
       text-transform: uppercase;
-      padding: 10px 8px;
+      padding: 12px 8px;
       text-align: left;
-      border-right: 1px solid #333;
+      border-right: 1px solid #222;
+      color: #c9a84c;
       overflow: hidden;
     }
     thead th.th-rank { text-align: center; }
     thead th:last-child { border-right: none; }
 
-    tbody tr { border-bottom: 1px solid #cccccc; }
+    tbody tr { border-bottom: 1px solid #e8e2d6; }
     tbody tr:last-child { border-bottom: none; }
-    tbody tr:active { background: #fff3e0; }
+    tbody tr:active { background: #f5f0e8; }
 
     td {
       padding: 9px 8px;
@@ -168,12 +145,7 @@
     td:last-child { border-right: none; }
 
     .td-rank { text-align: center; vertical-align: middle; padding: 6px 2px; }
-    .cell-medal {
-      display: block;
-      font-size: 1rem;
-      line-height: 1;
-      padding: 0;
-    }
+    .cell-medal { display: block; font-size: 1rem; line-height: 1; padding: 0; }
     .cell-rank-num {
       display: block;
       font-family: 'IBM Plex Mono', monospace;
@@ -192,7 +164,7 @@
     .td-college {
       white-space: normal;
       word-break: break-word;
-      font-size: 0.84rem;
+      font-size: 0.82rem;
       vertical-align: middle;
       line-height: 1.35;
     }
@@ -204,6 +176,7 @@
       text-align: center;
       white-space: nowrap;
       overflow: visible;
+      color: #c9a84c;
     }
 
     .td-branch { font-size: 0.8rem; color: #555; }
@@ -220,69 +193,57 @@
     .loading-row td { color: #888; }
 
     footer {
-      margin: 20px 16px 0;
-      padding-top: 14px;
-      border-top: 1px solid #e0e0e0;
+      background: #0a0a0a;
+      border-top: 1px solid #1e1e1e;
+      margin-top: 40px;
+      padding: 20px 24px;
       display: flex;
       flex-direction: column;
       gap: 5px;
+      text-align: center;
     }
     .footer-left, .footer-right {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.63rem;
-      color: #888;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: #444;
     }
 
     @media (min-width: 600px) {
-      header { padding: 20px 24px 24px; }
-      .header-inner { flex-direction: row; justify-content: space-between; align-items: flex-end; }
-      .header-title { font-size: 2rem; }
-      .header-timer { flex-direction: column; align-items: flex-end; gap: 4px; }
-      .content { padding: 24px 24px 0; }
+      .content { padding: 0 24px; }
       table { font-size: 0.88rem; }
-      thead th { padding: 12px 10px; font-size: 0.65rem; }
+      thead th { padding: 12px 10px; }
       td { padding: 11px 10px; }
-      footer { margin: 24px 24px 0; flex-direction: row; justify-content: space-between; font-size: 0.68rem; }
+      footer { flex-direction: row; justify-content: space-between; text-align: left; }
     }
 
     @media (min-width: 900px) {
-      .content { max-width: 1100px; margin: 0 auto; padding: 28px 24px 0; }
-      .header-title { font-size: 2.6rem; }
-      #countdown { font-size: 1.5rem; }
-      tbody tr:hover { background: #fff3e0; }
-      footer { max-width: 1100px; margin: 20px auto 0; padding: 14px 24px 0; }
+      .content { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+      tbody tr:hover { background: #f5f0e8; }
+      footer { max-width: 1100px; margin: 0 auto; }
     }
   </style>
 </head>
 <body>
 
   <div class="back-nav">
-    <a href="index.html">← Back to Home</a>
+    <a href="index.html">← Vidarbha 100</a>
   </div>
 
-  <header>
-    <div class="header-inner">
-      <div class="header-left">
-        <p class="header-eyebrow">Maharashtra State Board · Class 10 · 2026</p>
-        <h1 class="header-title">Vidarbha SSC Class 10 Toppers 2026</h1>
-        <span class="header-prestige">★ Top 100 Students — A Mark Of Distinction</span>
-      </div>
-      <div class="header-timer">
-        <span class="timer-label">Rankings update in:</span>
-        <div id="countdown">15:00</div>
-      </div>
-    </div>
+  <header class="brand-banner">
+    <p class="brand-eyebrow">SSC &nbsp;·&nbsp; Class 10 &nbsp;·&nbsp; 2026</p>
+    <div class="brand-name">Vidarbha</div>
+    <div class="brand-num">100</div>
+    <div class="brand-rule"></div>
+    <p class="brand-tagline">The Elite Academic Hall of Fame</p>
+    <span id="countdown">—</span>
   </header>
 
+  <div class="info-bar">
+    Data sourced from schools &nbsp;·&nbsp; Top 100 Ranked Students &nbsp;·&nbsp; Send Toppers details to <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a>
+  </div>
+
   <main class="content">
-
-    <div class="info-bar">
-      Data sent by schools, Not Board &nbsp;|&nbsp; Sports &amp; other marks included if provided &nbsp;|&nbsp; <b>Top 100 Ranked Students</b> &nbsp;|&nbsp; 🏫 School missing? Email <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a> — include contact number for clarification
-    </div>
-
-    <div class="cutoff-notice">
-      ★ View Top 100 Ranked Students
-    </div>
 
     <div class="table-wrap">
       <table>
@@ -290,7 +251,7 @@
           <col class="col-rank" /><col class="col-name" /><col class="col-pct" /><col class="col-college" /><col class="col-branch" />
         </colgroup>
         <thead><tr>
-          <th class="th-rank">Rank</th><th>Student Name</th><th>%</th><th>School</th><th>City</th>
+          <th class="th-rank">Rank</th><th>Name</th><th>%</th><th>School</th><th>City</th>
         </tr></thead>
         <tbody id="tbody-Rankings"><tr class="loading-row"><td colspan="5">Loading…</td></tr></tbody>
       </table>
@@ -304,7 +265,6 @@
   </footer>
 
   <script>
-    // SHEET_ID gets filled in after setupSSCSheet_RUN_ONCE creates the sheet.
     const SHEET_ID = '1lM1JEAPcYPZU9AUq6D2EXjuyQYSBK2tSc8U4VjV-bqI';
     const REFRESH_SECONDS = 12 * 60 * 60;
 
