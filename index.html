@@ -337,13 +337,21 @@
   <script>
     (async function fetchVisitors() {
       const el = document.getElementById('visitor-count');
+      const base = 'https://abacus.jasoncameron.dev';
+      const ns   = 'vidarbha-toppers';
+      const ts   = () => '?_=' + Date.now();
       try {
-        const res  = await fetch('https://abacus.jasoncameron.dev/hit/vidarbha-toppers/site-visits?_=' + Date.now(), { cache: 'no-store' });
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        const data = await res.json();
-        const n = Number(data.value);
-        if (!Number.isFinite(n)) throw new Error('Bad count');
-        el.textContent = n.toLocaleString('en-IN');
+        const [index, hsc, cbse12, ssc, cbse10] = await Promise.all([
+          fetch(`${base}/hit/${ns}/site-visits${ts()}`,    { cache: 'no-store' }).then(r => r.json()),
+          fetch(`${base}/get/${ns}/hsc-visits${ts()}`,     { cache: 'no-store' }).then(r => r.json()),
+          fetch(`${base}/get/${ns}/cbse12-visits${ts()}`,  { cache: 'no-store' }).then(r => r.json()),
+          fetch(`${base}/get/${ns}/ssc-visits${ts()}`,     { cache: 'no-store' }).then(r => r.json()),
+          fetch(`${base}/get/${ns}/cbse10-visits${ts()}`,  { cache: 'no-store' }).then(r => r.json()),
+        ]);
+        const total = [index, hsc, cbse12, ssc, cbse10]
+          .map(d => Number(d && d.value) || 0)
+          .reduce((a, b) => a + b, 0);
+        el.textContent = total.toLocaleString('en-IN');
       } catch (err) {
         el.textContent = '—';
       }
