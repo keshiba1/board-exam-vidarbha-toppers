@@ -131,27 +131,46 @@
     }
 
     /* ── COLLEGE CTA ── */
-    .college-cta { margin: 28px 16px 0; }
-    .college-cta-inner {
-      border: 1.5px solid #0a0a0a;
-      background: #f0f7ff;
-      padding: 14px 16px;
+    .college-cta {
+      background: #0a0a0a;
+      border-top: 1px solid #222;
+      padding: 48px 24px;
+      text-align: center;
     }
+    .college-cta-inner { max-width: 620px; margin: 0 auto; }
     .cta-heading {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      margin-bottom: 7px;
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 12px;
+      letter-spacing: 0.01em;
     }
+    .cta-rule { width: 40px; height: 1px; background: #c9a84c; margin: 16px auto; }
     .cta-body {
-      font-size: 0.84rem;
-      margin-bottom: 8px;
-      line-height: 1.55;
+      font-family: 'EB Garamond', serif;
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.7;
+      margin-bottom: 4px;
     }
-    .cta-body a { color: #1a6fc4; font-weight: 600; }
-    .cta-rules { padding-left: 16px; display: flex; flex-direction: column; gap: 5px; }
-    .cta-rules li { font-size: 0.82rem; line-height: 1.55; color: #333; }
+    .cta-body a { color: #c9a84c; text-decoration: none; border-bottom: 1px solid #c9a84c44; }
+    .cta-body a:hover { color: #e0c070; }
+    .cta-rules {
+      list-style: none;
+      margin-top: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .cta-rules li {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.05em;
+      color: #999;
+      line-height: 1.6;
+    }
+    .cta-rules li strong { color: #bbb; font-weight: 600; }
 
     /* ── FOOTER ── */
     footer {
@@ -220,9 +239,10 @@
 
   <div class="college-cta">
     <div class="college-cta-inner">
-      <p class="cta-heading">🚨 Schools &amp; Colleges — Submit Your Toppers Now</p>
+      <p class="cta-heading">Did your students make the cut?</p>
+      <div class="cta-rule"></div>
       <p class="cta-body">
-        Is your school or college missing? Send your toppers' data to
+        Send your toppers' data to
         <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a>
       </p>
       <ul class="cta-rules">
