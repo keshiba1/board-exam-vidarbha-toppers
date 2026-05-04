@@ -257,37 +257,61 @@
 
   <main class="cards-section">
     <p class="cards-section-label">Select an exam to view toppers</p>
-    <div class="cards-grid">
+    <div class="cards-grid" id="cards-grid">
 
-      <a class="card live c-hsc" href="hsc.html">
+      <a class="card live c-hsc" href="hsc.html"
+         data-status="declared" data-class="12" data-board-name="Maharashtra">
         <div class="card-top-bar"></div>
         <span class="card-board-label">Maharashtra Board</span>
         <h2 class="card-title">HSC<br>Top 100 Students</h2>
         <p class="card-status declared-badge">Results declared on May 2</p>
       </a>
 
-      <div class="card pending c-ssc">
+      <div class="card pending c-ssc"
+           data-status="pending" data-class="10" data-board-name="Maharashtra" data-href="ssc.html">
         <div class="card-top-bar"></div>
         <span class="card-board-label">Maharashtra Board</span>
         <h2 class="card-title">SSC<br>Top 100 Students</h2>
         <p class="card-status pending-badge">⏳ Yet to be<br>declared</p>
       </div>
 
-      <div class="card pending c-cbse12">
+      <div class="card pending c-cbse12"
+           data-status="pending" data-class="12" data-board-name="CBSE" data-href="cbse12.html">
         <div class="card-top-bar"></div>
         <span class="card-board-label">CBSE</span>
-        <h2 class="card-title">CBSE Class XII<br>Top 100 Students</h2>
+        <h2 class="card-title">CBSE Class 12<br>Top 100 Students</h2>
         <p class="card-status pending-badge">⏳ Yet to be<br>declared</p>
       </div>
 
-      <div class="card pending c-cbse10">
+      <div class="card pending c-cbse10"
+           data-status="pending" data-class="10" data-board-name="CBSE" data-href="cbse10.html">
         <div class="card-top-bar"></div>
         <span class="card-board-label">CBSE</span>
-        <h2 class="card-title">CBSE Class X<br>Top 100 Students</h2>
-        <p class="card-status pending-badge">⏳ Combined results<br>awaited</p>
+        <h2 class="card-title">CBSE Class 10<br>Top 100 Students</h2>
+        <p class="card-status pending-badge">⏳ Yet to be<br>declared</p>
       </div>
 
     </div>
+
+    <script>
+      // Reorder cards: active (live/declared) first, pending after.
+      // Within each group: Class 10 before Class 12.
+      // Within each class: alphabetical by board name.
+      (function reorderCards() {
+        const grid = document.getElementById('cards-grid');
+        if (!grid) return;
+        const cards = Array.from(grid.children);
+        const statusRank = s => (s === 'live' || s === 'declared') ? 0 : 1;
+        cards.sort((a, b) => {
+          const sa = statusRank(a.dataset.status), sb = statusRank(b.dataset.status);
+          if (sa !== sb) return sa - sb;
+          const ca = parseInt(a.dataset.class, 10), cb = parseInt(b.dataset.class, 10);
+          if (ca !== cb) return ca - cb;        // Class 10 before Class 12
+          return (a.dataset.boardName || '').localeCompare(b.dataset.boardName || '');
+        });
+        cards.forEach(c => grid.appendChild(c));
+      })();
+    </script>
   </main>
 
   <div class="college-cta">
