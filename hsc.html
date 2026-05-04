@@ -6,7 +6,7 @@
   <title>Vidarbha HSC Toppers 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:wght@400;500&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -22,144 +22,121 @@
     /* ── BACK NAV ── */
     .back-nav {
       background: #0a0a0a;
-      padding: 0;
+      border-bottom: 1px solid #1e1e1e;
     }
     .back-nav a {
-      display: block;
-      padding: 13px 16px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.7rem;
-      letter-spacing: 0.1em;
-      color: #aaa;
+      display: flex;
+      align-items: center;
+      padding: 12px 20px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.3em;
+      color: #c9a84c;
       text-decoration: none;
       text-transform: uppercase;
-      /* large enough touch target */
       min-height: 44px;
-      display: flex;
-      align-items: center;
+      transition: color 0.15s;
     }
-    .back-nav a:active { color: #fff; }
+    .back-nav a:hover { color: #e0c070; }
 
-    /* ── HEADER ── */
-    header {
+    /* ── BRAND BANNER (Vidarbha 100) ── */
+    .brand-banner {
       background: #0a0a0a;
       color: #fafafa;
-      padding: 16px 16px 20px;
-      border-bottom: 2px solid #fafafa;
+      padding: 36px 20px 32px;
+      border-top: 3px solid #c9a84c;
+      border-bottom: 3px solid #c9a84c;
+      text-align: center;
     }
-    /* stack on mobile: title on top, timer below */
-    .header-inner {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-    .header-eyebrow {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.6rem;
-      letter-spacing: 0.18em;
+    .brand-eyebrow {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.5em;
       text-transform: uppercase;
-      color: #888;
-      margin-bottom: 5px;
+      color: #c9a84c;
+      margin-bottom: 22px;
     }
-    .header-title {
+    .brand-name {
       font-family: 'Playfair Display', serif;
       font-weight: 900;
-      font-size: 1.7rem;
-      line-height: 1.15;
-      letter-spacing: -0.01em;
-    }
-    .header-timer {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-    .timer-label {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.65rem;
-      letter-spacing: 0.1em;
-      color: #888;
+      font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+      color: #fff;
+      letter-spacing: 0.25em;
       text-transform: uppercase;
-      white-space: nowrap;
+      line-height: 1;
     }
-    #countdown {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 1.4rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      color: #f5c518;
+    .brand-num {
+      font-family: 'Playfair Display', serif;
+      font-weight: 900;
+      font-size: clamp(3.4rem, 8vw, 6rem);
+      color: #c9a84c;
+      line-height: 0.9;
+      letter-spacing: -0.03em;
     }
+    .brand-rule { width: 40px; height: 1px; background: #c9a84c; margin: 16px auto; }
+    .brand-tagline {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: #d4d4d4;
+    }
+    /* Countdown kept in DOM for JS but hidden — moved to footer */
+    #countdown { display: none; }
 
     /* ── MAIN CONTENT ── */
-    .content {
-      padding: 20px 16px 0;
-    }
+    .content { padding: 0 16px; }
 
-    /* ── INFO BAR (combined disclaimer + CTA) ── */
+    /* ── INFO BAR ── */
     .info-bar {
-      background: #fffbe6;
-      border: 1px solid #d4c800;
-      border-left: 4px solid #d4c800;
-      padding: 8px 12px;
-      margin-bottom: 14px;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.68rem;
+      background: #0a0a0a;
+      border-bottom: 1px solid #1e1e1e;
+      padding: 10px 20px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.62rem;
+      letter-spacing: 0.04em;
       color: #555;
-      line-height: 1.7;
+      line-height: 1.8;
+      text-align: center;
     }
-    .info-bar a { color: #1a6fc4; font-weight: 600; }
+    .info-bar a { color: #c9a84c; text-decoration: none; }
 
     /* ── TABS ── */
     .tabs {
       display: flex;
+      background: #0a0a0a;
+      border-bottom: 1px solid #222;
+      padding: 0 20px;
       gap: 0;
-      border-bottom: 2px solid #0a0a0a;
     }
     .tab-btn {
-      flex: 1;
       font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 0.85rem;
-      font-weight: 700;
-      padding: 13px 8px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      padding: 16px 20px;
       border: none;
+      border-bottom: 2px solid transparent;
+      background: transparent;
+      color: #555;
       cursor: pointer;
-      letter-spacing: 0.04em;
-      border-right: 1.5px solid #0a0a0a;
-      transition: background 0.15s, color 0.15s;
+      transition: color 0.15s, border-color 0.15s;
       -webkit-tap-highlight-color: transparent;
       touch-action: manipulation;
+      margin-bottom: -1px;
     }
-    .tab-btn:last-child { border-right: none; }
+    .tab-btn:hover { color: #c9a84c; }
+    .tab-btn.active { color: #c9a84c; border-bottom-color: #c9a84c; }
 
-    /* inactive — dark bg, stream-coloured text, clearly tappable */
-    .tab-btn[data-stream="Science"]:not(.active)  { background: #111; color: #4da6ff; }
-    .tab-btn[data-stream="Commerce"]:not(.active) { background: #111; color: #ffaa33; }
-    .tab-btn[data-stream="Arts"]:not(.active)     { background: #111; color: #dd66ff; }
-
-    /* active — fluorescent bright, white text */
-    .tab-btn[data-stream="Science"].active  { background: #00aaff; color: #fff; }
-    .tab-btn[data-stream="Commerce"].active { background: #ff8800; color: #fff; }
-    .tab-btn[data-stream="Arts"].active     { background: #cc00ff; color: #fff; }
-
-    /* ── 90% CUTOFF NOTICE ── */
-    .cutoff-notice {
-      background: #0a0a0a;
-      color: #f5c518;
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.75rem;
-      font-weight: 600;
-      padding: 9px 14px;
-      letter-spacing: 0.04em;
-      line-height: 1.5;
-      margin-bottom: 0;
-    }
+    /* ── CUTOFF NOTICE ── */
+    .cutoff-notice { display: none; }
 
     /* ── TABLE ── */
     .tab-panel { display: none; }
     .tab-panel.active { display: block; }
 
     .table-wrap {
-      border: 1.5px solid #0a0a0a;
+      border: 1px solid #e8e2d6;
       border-top: none;
       overflow-x: auto;
       -webkit-overflow-scrolling: touch;
@@ -183,22 +160,23 @@
 
     thead tr { background: #0a0a0a; color: #fafafa; }
     thead th {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.58rem;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.55rem;
       font-weight: 600;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.25em;
       text-transform: uppercase;
-      padding: 10px 8px;
+      padding: 12px 8px;
       text-align: left;
-      border-right: 1px solid #333;
+      border-right: 1px solid #222;
+      color: #c9a84c;
       overflow: hidden;
     }
     thead th.th-rank { text-align: center; }
     thead th:last-child { border-right: none; }
 
-    tbody tr { border-bottom: 1px solid #cccccc; }
+    tbody tr { border-bottom: 1px solid #e8e2d6; }
     tbody tr:last-child { border-bottom: none; }
-    tbody tr:active { background: #f0f0f0; }
+    tbody tr:active { background: #f5f0e8; }
 
     td {
       padding: 9px 8px;
@@ -269,6 +247,7 @@
       text-align: center;
       white-space: nowrap;
       overflow: visible;
+      color: #c9a84c;
     }
 
     /* College cell */
@@ -290,77 +269,66 @@
 
     /* ── FOOTER ── */
     footer {
-      margin: 20px 16px 0;
-      padding-top: 14px;
-      border-top: 1px solid #e0e0e0;
+      background: #0a0a0a;
+      border-top: 1px solid #1e1e1e;
+      margin-top: 40px;
+      padding: 20px 24px;
       display: flex;
       flex-direction: column;
       gap: 5px;
+      text-align: center;
     }
     .footer-left, .footer-right {
-      font-family: 'IBM Plex Mono', monospace;
-      font-size: 0.63rem;
-      color: #888;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: #444;
     }
 
     /* ── TABLET+ ── */
     @media (min-width: 600px) {
-      header { padding: 20px 24px 24px; }
-      .header-inner { flex-direction: row; justify-content: space-between; align-items: flex-end; }
-      .header-title { font-size: 2rem; }
-      .header-timer { flex-direction: column; align-items: flex-end; gap: 4px; }
-      .content { padding: 24px 24px 0; }
-      .tab-btn { font-size: 0.9rem; padding: 12px 20px; flex: none; }
+      header { padding: 40px 32px 36px; }
+      .content { padding: 0 24px; }
       table { font-size: 0.88rem; }
-      thead th { padding: 12px 10px; font-size: 0.65rem; }
+      thead th { padding: 12px 10px; }
       td { padding: 11px 10px; }
-      footer { margin: 24px 24px 0; flex-direction: row; justify-content: space-between; font-size: 0.68rem; }
+      footer { flex-direction: row; justify-content: space-between; text-align: left; }
     }
 
     /* ── DESKTOP ── */
     @media (min-width: 900px) {
-      .content { max-width: 1100px; margin: 0 auto; padding: 28px 24px 0; }
-      .header-title { font-size: 2.6rem; }
-      #countdown { font-size: 1.5rem; }
-      tbody tr:hover { background: #f0f0f0; }
-      footer { max-width: 1100px; margin: 20px auto 0; padding: 14px 24px 0; }
+      .content { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+      tbody tr:hover { background: #f5f0e8; }
+      footer { max-width: 1100px; margin: 0 auto; }
     }
   </style>
 </head>
 <body>
 
   <div class="back-nav">
-    <a href="index.html">← Back to Home</a>
+    <a href="index.html">← Vidarbha 100</a>
   </div>
 
-  <header>
-    <div class="header-inner">
-      <div class="header-left">
-        <p class="header-eyebrow">Maharashtra State Board · Class 12 · 2026</p>
-        <h1 class="header-title">Vidarbha HSC Toppers 2026</h1>
-      </div>
-      <div class="header-timer">
-        <span class="timer-label">Rankings update in:</span>
-        <div id="countdown">15:00</div>
-      </div>
-    </div>
+  <header class="brand-banner">
+    <p class="brand-eyebrow">HSC &nbsp;·&nbsp; 2026</p>
+    <div class="brand-name">Vidarbha</div>
+    <div class="brand-num">100</div>
+    <div class="brand-rule"></div>
+    <p class="brand-tagline">The Elite Academic Hall of Fame</p>
+    <span id="countdown">—</span>
   </header>
 
+  <div class="info-bar">
+    Data sourced from schools &amp; junior colleges &nbsp;·&nbsp; Top 100 per stream &nbsp;·&nbsp; Missing? Email <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a>
+  </div>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-stream="Science">Science</button>
+    <button class="tab-btn" data-stream="Commerce">Commerce</button>
+    <button class="tab-btn" data-stream="Arts">Arts</button>
+  </div>
+
   <main class="content">
-
-    <div class="info-bar">
-      Data sent by schools &amp; junior colleges, Not Board &nbsp;|&nbsp; Sports &amp; other marks included if provided &nbsp;|&nbsp; Top 100 rankings per stream &nbsp;|&nbsp; 🏫 School or college missing? Email <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a> — include contact number for clarification
-    </div>
-
-    <div class="cutoff-notice">
-      ★ View Top 100 Ranked Students
-    </div>
-
-    <div class="tabs">
-      <button class="tab-btn active" data-stream="Science">Science</button>
-      <button class="tab-btn" data-stream="Commerce">Commerce</button>
-      <button class="tab-btn" data-stream="Arts">Arts</button>
-    </div>
 
     <div id="panel-Science" class="tab-panel active">
       <div class="table-wrap">
