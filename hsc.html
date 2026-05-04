@@ -175,8 +175,8 @@
     }
 
     /* Mobile column widths: Rank | Name | % | College | Branch(clips ok) */
-    col.col-rank    { width: 46px; }
-    col.col-name    { width: 28%; }
+    col.col-rank    { width: 38px; }
+    col.col-name    { width: 34%; }
     col.col-pct     { width: 68px; }
     col.col-college { width: 33%; }
     col.col-branch  { width: 20%; }
@@ -213,12 +213,14 @@
     .td-rank {
       text-align: left;
       vertical-align: middle;
-      padding: 6px 4px;
+      padding: 6px 0 6px 4px;
     }
     .cell-medal {
       display: block;
-      font-size: 1.1rem;
-      line-height: 1.1;
+      font-size: 1rem;
+      line-height: 1;
+      margin-left: -3px;
+      padding: 0;
     }
     .cell-rank-num {
       display: block;
@@ -227,6 +229,8 @@
       font-weight: 700;
       line-height: 1.2;
       color: #444;
+      padding: 0;
+      margin-top: 1px;
     }
 
     /* Name cell — first name / surname on separate lines */

@@ -133,8 +133,8 @@
       white-space: nowrap;
     }
 
-    col.col-rank    { width: 46px; }
-    col.col-name    { width: 28%; }
+    col.col-rank    { width: 38px; }
+    col.col-name    { width: 34%; }
     col.col-pct     { width: 68px; }
     col.col-college { width: 33%; }
     col.col-branch  { width: 20%; }
@@ -167,8 +167,14 @@
     }
     td:last-child { border-right: none; }
 
-    .td-rank { text-align: left; vertical-align: middle; padding: 6px 4px; }
-    .cell-medal { display: block; font-size: 1.1rem; line-height: 1.1; }
+    .td-rank { text-align: left; vertical-align: middle; padding: 6px 0 6px 4px; }
+    .cell-medal {
+      display: block;
+      font-size: 1rem;
+      line-height: 1;
+      margin-left: -3px;  /* compensate for emoji internal whitespace */
+      padding: 0;
+    }
     .cell-rank-num {
       display: block;
       font-family: 'IBM Plex Mono', monospace;
@@ -176,6 +182,8 @@
       font-weight: 700;
       line-height: 1.2;
       color: #444;
+      padding: 0;
+      margin-top: 1px;
     }
 
     .td-name { white-space: normal; vertical-align: middle; }
