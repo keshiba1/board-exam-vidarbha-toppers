@@ -221,8 +221,8 @@
     }
 
     .td-name { white-space: normal; vertical-align: middle; }
-    .cell-firstname { display: block; font-weight: 700; font-size: 0.88rem; line-height: 1.25; }
-    .cell-surname   { display: block; font-weight: 600; font-size: 0.82rem; line-height: 1.25; color: #333; }
+    .cell-firstname { display: block; font-weight: 700; font-size: 0.8rem;  line-height: 1.25; word-break: break-word; overflow-wrap: anywhere; }
+    .cell-surname   { display: block; font-weight: 600; font-size: 0.74rem; line-height: 1.25; color: #333; word-break: break-word; overflow-wrap: anywhere; }
 
     .td-college {
       white-space: normal;
@@ -276,6 +276,8 @@
       .header-title { font-size: 2rem; }
       .header-timer { flex-direction: column; align-items: flex-end; gap: 4px; }
       .content { padding: 24px 24px 0; }
+      .cell-firstname { font-size: 0.88rem; }
+      .cell-surname   { font-size: 0.82rem; }
       .tab-btn { font-size: 0.9rem; padding: 12px 20px; flex: none; }
       table { font-size: 0.88rem; }
       thead th { padding: 12px 10px; font-size: 0.65rem; }
