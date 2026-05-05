@@ -178,6 +178,17 @@
     tbody tr:last-child { border-bottom: none; }
     tbody tr:active { background: #f5f0e8; }
 
+    /* Rank #1 — gold gradient band (Vidarbha 100 trophy row) */
+    tbody tr.rank1 {
+      background: linear-gradient(90deg, #faecbb 0%, #f5e2a3 50%, #faecbb 100%);
+    }
+    tbody tr.rank1 td { font-weight: 600; }
+    tbody tr.rank1 .cell-rank-num { color: #6b4f1d; font-size: 0.85rem; }
+    tbody tr.rank1 .cell-firstname,
+    tbody tr.rank1 .cell-surname  { color: #4a2c1a; }
+    tbody tr.rank1 .td-pct        { color: #6b4f1d; }
+    tbody tr.rank1 .cell-medal    { font-size: 1.15rem; }
+
     td {
       padding: 9px 8px;
       border-right: 1px solid #cccccc;
@@ -465,7 +476,7 @@
         const firstName = parts[0] || '';
         const surname   = parts.length > 1 ? parts[parts.length - 1] : '';
         return `
-        <tr>
+        <tr class="${r.rank === 1 ? 'rank1' : ''}">
           <td class="td-rank">
             ${r.medal ? `<span class="cell-medal">${r.medal}</span>` : ''}
             <span class="cell-rank-num">${r.rank}</span>
