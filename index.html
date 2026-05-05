@@ -92,6 +92,12 @@
       letter-spacing: 0.02em;
       text-align: center;
     }
+    .cards-section-cta {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-weight: 600;
+      color: #8a6f2c;
+    }
     .cards-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -117,13 +123,13 @@
       box-shadow: 0 6px 18px rgba(138, 111, 44, 0.15);
       transform: translateY(-2px);
     }
-    .card:hover .card-title { color: #8a6f2c; }
+    .card:hover .card-title { color: #c9a84c; }
     .card.pending { cursor: default; }
     .card-title {
       font-family: 'Playfair Display', serif;
       font-weight: 700;
       font-size: clamp(1.4rem, 3vw, 1.9rem);
-      color: #0a0a0a;
+      color: #8a6f2c;
       transition: color 0.15s;
       line-height: 1.1;
     }
@@ -217,7 +223,7 @@
   </header>
 
   <main class="cards-section">
-    <p class="cards-section-label">Less than 1% of Vidarbha students make it to this list. Are you on it?</p>
+    <p class="cards-section-label">Less than 1% of Vidarbha students make it to this list. <span class="cards-section-cta">Are you on it?</span></p>
     <div class="cards-grid">
 
       <a class="card" href="cbse10.html">
