@@ -334,7 +334,7 @@
       const tbody = document.getElementById('tbody-Rankings');
       rows = (rows || []).filter(r => !/^\s*\(example\)/i.test(r.name));
       if (rows.length === 0) {
-        tbody.innerHTML = '<tr class="loading-row"><td colspan="5">No data yet — results not declared. Check back after the SSC Class 10 results are announced.</td></tr>';
+        tbody.innerHTML = '<tr class="loading-row"><td colspan="5">Results declared — data is being compiled. Check back shortly.</td></tr>';
         return;
       }
       const sorted = sortRows(rows).slice(0, 100);
