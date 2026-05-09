@@ -24,6 +24,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 
+  <!-- Schema.org: declare each Vidarbha district as a Place this page covers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "https://vidarbha-board-exam-toppers.duckdns.org/faq.html",
+    "name": "Vidarbha 50 — Frequently Asked Questions",
+    "description": "Top schools and board exam toppers across all 11 districts of Vidarbha — Nagpur, Amravati, Wardha, Akola, Chandrapur, Yavatmal, Bhandara, Gondia, Gadchiroli, Washim, and Buldhana.",
+    "isPartOf": { "@type": "WebSite", "name": "Vidarbha 50", "url": "https://vidarbha-board-exam-toppers.duckdns.org/" },
+    "about": [
+      { "@type": "Place", "name": "Vidarbha", "containedInPlace": { "@type": "AdministrativeArea", "name": "Maharashtra, India" } },
+      { "@type": "City", "name": "Nagpur",     "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Amravati",   "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Wardha",     "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Akola",      "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Chandrapur", "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Yavatmal",   "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Bhandara",   "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Gondia",     "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Gadchiroli", "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Washim",     "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } },
+      { "@type": "City", "name": "Buldhana",   "containedInPlace": { "@type": "AdministrativeArea", "name": "Vidarbha, Maharashtra, India" } }
+    ]
+  }
+  </script>
+
   <!-- Schema.org FAQPage structured data — search engines + AI parse this into Q&A pairs -->
   <script type="application/ld+json">
   {
@@ -275,6 +301,61 @@
     }
     .faq-a a:hover { color: #c9a84c; }
 
+    /* ── DISTRICTS COVERED SECTION ── */
+    .districts-section {
+      margin: 50px 0 0;
+      padding: 32px 24px;
+      background: #f5f0e8;
+      border-top: 1px solid #e8e2d6;
+      border-bottom: 1px solid #e8e2d6;
+    }
+    .districts-heading {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: #0a0a0a;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .districts-sub {
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: #6b4f1d;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .districts-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    .district-card {
+      background: #fff;
+      border: 1px solid #e8e2d6;
+      padding: 12px 14px;
+      border-radius: 4px;
+    }
+    .district-name {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: #8a6f2c;
+      margin-bottom: 4px;
+    }
+    .district-line {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.78rem;
+      color: #555;
+      line-height: 1.4;
+    }
+    @media (min-width: 600px) {
+      .districts-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (min-width: 900px) {
+      .districts-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+
     .cta-block {
       margin-top: 48px;
       padding: 28px 24px;
@@ -341,7 +422,7 @@
   <main class="content">
 
     <p class="intro">
-      Everything you need to know about <em>Vidarbha 50</em> — how rankings are compiled, which boards we cover, how schools can submit their toppers, and what makes inclusion on these lists rare.
+      Everything you need to know about <em>Vidarbha 50</em> — how rankings are compiled, which boards we cover, how schools can submit their toppers, and what makes inclusion on these lists rare. Top schools and board exam toppers from <strong>Nagpur, Amravati, Wardha, Akola, Chandrapur, Yavatmal, Bhandara, Gondia, Gadchiroli, Washim, and Buldhana</strong> — every Vidarbha district — are eligible.
     </p>
 
     <div class="faq-item">
@@ -439,6 +520,24 @@
       <div class="faq-q">Who is the rank-1 student in Vidarbha for HSC and SSC 2026?</div>
       <div class="faq-a">The rank-1 topper for each board appears at the top of the corresponding list on Vidarbha 50, displayed in a <strong>gold gradient row</strong>. For Maharashtra HSC (Class 12), rank-1 is shown separately for Science, Commerce, and Arts streams. For Maharashtra SSC (Class 10), there is a single rank-1 topper across the region. CBSE Class 12 and Class 10 will publish their rank-1 toppers once those board results are declared.</div>
     </div>
+
+    <section class="districts-section" id="districts-covered">
+      <div class="districts-heading">Districts Covered by Vidarbha 50</div>
+      <div class="districts-sub">Top schools and board exam toppers ranked across all 11 Vidarbha districts</div>
+      <div class="districts-grid">
+        <div class="district-card"><div class="district-name">Nagpur</div><div class="district-line">Top schools and board exam toppers from Nagpur appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Amravati</div><div class="district-line">Top schools and board exam toppers from Amravati appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Wardha</div><div class="district-line">Top schools and board exam toppers from Wardha appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Akola</div><div class="district-line">Top schools and board exam toppers from Akola appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Chandrapur</div><div class="district-line">Top schools and board exam toppers from Chandrapur appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Yavatmal</div><div class="district-line">Top schools and board exam toppers from Yavatmal appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Bhandara</div><div class="district-line">Top schools and board exam toppers from Bhandara appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Gondia</div><div class="district-line">Top schools and board exam toppers from Gondia appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Gadchiroli</div><div class="district-line">Top schools and board exam toppers from Gadchiroli appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Washim</div><div class="district-line">Top schools and board exam toppers from Washim appear on Vidarbha 50.</div></div>
+        <div class="district-card"><div class="district-name">Buldhana</div><div class="district-line">Top schools and board exam toppers from Buldhana appear on Vidarbha 50.</div></div>
+      </div>
+    </section>
 
     <div class="cta-block">
       <h3>Topper from your school missing?</h3>
