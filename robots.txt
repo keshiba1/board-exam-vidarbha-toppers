@@ -1,9 +1,95 @@
-# Vidarbha 50 — public site, all crawlers allowed.
-# Explicit allowlist for social previewers (WhatsApp / Facebook / Twitter / iMessage / Slack).
+# Vidarbha 50 — public site, all crawlers welcome.
+# Allowlist for search, social previewers, and AI / LLM crawlers.
 
 User-agent: *
 Allow: /
 
+# ───── SEARCH ENGINES ─────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# ───── AI / LLM CRAWLERS ─────
+# OpenAI (ChatGPT, GPT search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google AI (Bard, Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Apple AI
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Common Crawl (used as training data by many LLMs)
+User-agent: CCBot
+Allow: /
+
+# Meta AI / LLaMA
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# Bytedance (Doubao)
+User-agent: Bytespider
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Mistral
+User-agent: MistralAI-User
+Allow: /
+
+# ───── SOCIAL PREVIEWERS ─────
 User-agent: facebookexternalhit
 Allow: /
 
@@ -28,8 +114,8 @@ Allow: /
 User-agent: TelegramBot
 Allow: /
 
-User-agent: Applebot
-Allow: /
-
 User-agent: Discordbot
 Allow: /
+
+# ───── SITEMAP ─────
+Sitemap: https://vidarbha-board-exam-toppers.duckdns.org/sitemap.xml
