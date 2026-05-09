@@ -339,7 +339,7 @@
       const tbody = document.getElementById('tbody-Rankings');
       rows = (rows || []).filter(r => !/^\s*\(example\)/i.test(r.name));
       if (rows.length === 0) {
-        tbody.innerHTML = '<tr class="loading-row"><td colspan="5">No data yet — results not declared. Check back after the CBSE Class 10 results are announced.</td></tr>';
+        tbody.innerHTML = '<tr class="loading-row"><td colspan="5">Awaiting results of Board exam #2. Rankings will be based on best of both.</td></tr>';
         return;
       }
       const sorted = sortRows(rows);
