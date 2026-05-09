@@ -80,7 +80,26 @@
       font-size: 1rem;
       color: #d4d4d4;
     }
-    #countdown { display: none; }
+    /* -- UPDATE STRIP (countdown) -- */
+    .update-strip {
+      background: #0a0a0a;
+      border-bottom: 1px solid #1e1e1e;
+      padding: 11px 20px;
+      text-align: center;
+      font-family: 'EB Garamond', serif;
+      font-style: italic;
+      font-size: 0.9rem;
+      color: #c9a84c;
+      letter-spacing: 0.02em;
+    }
+    .update-strip .timer-value {
+      font-family: 'IBM Plex Mono', monospace;
+      font-style: normal;
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: 0.05em;
+      margin-left: 6px;
+    }
 
     /* ── MAIN CONTENT ── */
     .content { padding: 0 16px; }
@@ -252,8 +271,11 @@
     <div class="brand-num">50</div>
     <div class="brand-rule"></div>
     <p class="brand-tagline">The Elite Academic Hall of Fame</p>
-    <span id="countdown">—</span>
   </header>
+
+  <div class="update-strip">
+    Rankings update in <span id="countdown" class="timer-value">6 Hours</span>
+  </div>
 
   <div class="info-bar">
     Data sourced from schools &nbsp;·&nbsp; Top 50 Ranked Students &nbsp;·&nbsp; % as printed on marksheet by board, including extra marks &nbsp;·&nbsp; Send Toppers details to <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a>
@@ -282,7 +304,7 @@
 
   <script>
     const SHEET_ID = '10Esq90z7HHcyhuVJ3d5_6Tq1RqSji3t7Xex33BhDHSs';
-    const REFRESH_SECONDS = 12 * 60 * 60;
+    const REFRESH_SECONDS = 6 * 60 * 60;
 
     function parseCSV(text) {
       const lines = text.trim().split('\n');
@@ -411,10 +433,15 @@
         fetchData();
       }
       const s = getSecondsLeft();
-      const h = String(Math.floor(s / 3600)).padStart(2, '0');
-      const m = String(Math.floor((s % 3600) / 60)).padStart(2, '0');
-      const sec = String(s % 60).padStart(2, '0');
-      countdownEl.textContent = `${h}:${m}:${sec}`;
+      let label;
+      if (s >= 3600) {
+        const hrs = Math.floor(s / 3600);
+        label = hrs + (hrs === 1 ? ' Hour' : ' Hours');
+      } else {
+        const mins = Math.max(1, Math.ceil(s / 60));
+        label = mins + (mins === 1 ? ' min' : ' mins');
+      }
+      countdownEl.textContent = label;
     }
 
     if (getSecondsLeft() <= 0) {
