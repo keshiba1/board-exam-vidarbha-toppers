@@ -1,0 +1,35 @@
+# Vidarbha 50 — public site, all crawlers allowed.
+# Explicit allowlist for social previewers (WhatsApp / Facebook / Twitter / iMessage / Slack).
+
+User-agent: *
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: facebookexternalhit/1.1
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
