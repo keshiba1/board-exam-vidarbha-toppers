@@ -469,9 +469,10 @@
         }
         return;
       }
-      const sorted = sortRows(rows).slice(0, 100);
+      const sorted = sortRows(rows);
       assignRanks(sorted);
-      tbody.innerHTML = sorted.map(r => {
+      const visible = sorted.filter(r => r.rank <= 100);
+      tbody.innerHTML = visible.map(r => {
         const parts = toTitleCase(r.name.trim()).split(/\s+/);
         const firstName = parts[0] || '';
         const surname   = parts.length > 1 ? parts[parts.length - 1] : '';
