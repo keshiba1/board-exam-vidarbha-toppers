@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vidarbha CBSE Class 10 Toppers 2026 — Top 100 Students</title>
+  <title>Vidarbha CBSE Class 10 Toppers 2026 — Top 50 Students</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=EB+Garamond:wght@400;500&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -39,7 +39,7 @@
     }
     .back-nav a:hover { color: #e0c070; }
 
-    /* ── BRAND BANNER (Vidarbha 100) ── */
+    /* ── BRAND BANNER (Vidarbha 50) ── */
     .brand-banner {
       background: #0a0a0a;
       color: #fafafa;
@@ -140,7 +140,7 @@
     tbody tr:last-child { border-bottom: none; }
     tbody tr:active { background: #f5f0e8; }
 
-    /* Rank #1 — gold gradient band (Vidarbha 100 trophy row) */
+    /* Rank #1 — gold gradient band (Vidarbha 50 trophy row) */
     tbody tr.rank1 {
       background: linear-gradient(90deg, #faecbb 0%, #f5e2a3 50%, #faecbb 100%);
     }
@@ -243,20 +243,20 @@
 <body>
 
   <div class="back-nav">
-    <a href="index.html">← Vidarbha 100</a>
+    <a href="index.html">← Vidarbha 50</a>
   </div>
 
   <header class="brand-banner">
     <p class="brand-eyebrow">CBSE &nbsp;·&nbsp; Class 10 &nbsp;·&nbsp; 2026</p>
     <div class="brand-name">Vidarbha</div>
-    <div class="brand-num">100</div>
+    <div class="brand-num">50</div>
     <div class="brand-rule"></div>
     <p class="brand-tagline">The Elite Academic Hall of Fame</p>
     <span id="countdown">—</span>
   </header>
 
   <div class="info-bar">
-    Data sourced from schools &nbsp;·&nbsp; Top 100 Ranked Students &nbsp;·&nbsp; % as printed on marksheet by board, including extra marks &nbsp;·&nbsp; Send Toppers details to <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a>
+    Data sourced from schools &nbsp;·&nbsp; Top 50 Ranked Students &nbsp;·&nbsp; % as printed on marksheet by board, including extra marks &nbsp;·&nbsp; Send Toppers details to <a href="mailto:journalistbuddy@gmail.com">journalistbuddy@gmail.com</a>
   </div>
 
   <main class="content">
@@ -344,7 +344,7 @@
       }
       const sorted = sortRows(rows);
       assignRanks(sorted);
-      const visible = sorted.filter(r => r.rank <= 100);
+      const visible = sorted.filter(r => r.rank <= 50);
       tbody.innerHTML = visible.map(r => {
         const parts = toTitleCase(r.name.trim()).split(/\s+/);
         const firstName = parts[0] || '';
