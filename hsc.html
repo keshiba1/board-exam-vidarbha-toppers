@@ -380,7 +380,7 @@
   </header>
 
   <div class="update-strip">
-    Rankings update in <span id="countdown" class="timer-value">6 Hours</span>
+    Last updated <span id="countdown" class="timer-value">just now</span>
   </div>
 
   <div class="info-bar">
@@ -587,19 +587,20 @@
     }
 
     function tickCountdown() {
-      const secondsLeft = getSecondsLeft();
-      if (secondsLeft <= 0) {
+      const last = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
+      if (last === 0 || Date.now() - last >= REFRESH_SECONDS * 1000) {
         localStorage.setItem(STORAGE_KEY, Date.now());
         fetchAll();
+        countdownEl.textContent = 'just now';
+        return;
       }
-      const s = getSecondsLeft();
+      const elapsedMin = Math.floor((Date.now() - last) / 60000);
       let label;
-      if (s >= 3600) {
-        const hrs = Math.floor(s / 3600);
-        label = hrs + (hrs === 1 ? ' Hour' : ' Hours');
-      } else {
-        const mins = Math.max(1, Math.ceil(s / 60));
-        label = mins + (mins === 1 ? ' min' : ' mins');
+      if (elapsedMin < 1) label = 'just now';
+      else if (elapsedMin < 60) label = elapsedMin + (elapsedMin === 1 ? ' min ago' : ' mins ago');
+      else {
+        const hrs = Math.floor(elapsedMin / 60);
+        label = hrs + (hrs === 1 ? ' hour ago' : ' hours ago');
       }
       countdownEl.textContent = label;
     }
@@ -609,7 +610,7 @@
       localStorage.setItem(STORAGE_KEY, Date.now());
     }
 
-    setInterval(tickCountdown, 1000);
+    setInterval(tickCountdown, 600000); // refresh label every 10 min
     tickCountdown();
 
     /* ── VISITOR COUNTER ── */
