@@ -393,7 +393,7 @@
       const tbody = document.getElementById('tbody-Rankings');
       rows = (rows || []).filter(r => !/^\s*\(example\)/i.test(r.name));
       if (rows.length === 0) {
-        tbody.innerHTML = '<tr class="loading-row"><td colspan="5">Awaiting results of Board exam #2. Rankings will be based on best of both.</td></tr>';
+        tbody.innerHTML = '<tr class="loading-row"><td colspan="5">Results declared — rankings are being compiled. Check back shortly.</td></tr>';
         return;
       }
       const sorted = sortRows(rows);
