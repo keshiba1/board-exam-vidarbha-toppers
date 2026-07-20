@@ -449,7 +449,10 @@
     function sortRows(rows) {
       return rows.slice().sort((a, b) => {
         if (b.pct !== a.pct) return b.pct - a.pct;
-        return (a.name.split(' ')[0] || '').localeCompare(b.name.split(' ')[0] || '');
+        // within the same percentage: school A-Z, then student name as final tie-break
+        const sc = (a.college || '').localeCompare(b.college || '');
+        if (sc !== 0) return sc;
+        return (a.name || '').localeCompare(b.name || '');
       });
     }
 
