@@ -148,6 +148,35 @@
       line-height: 1.1;
     }
     .card-title.muted { color: #bbb; }
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 4px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.58rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #c0392b;
+    }
+    .live-badge::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #e02020;
+      box-shadow: 0 0 0 0 rgba(224, 32, 32, 0.6);
+      animation: livePulse 1.4s ease-out infinite;
+    }
+    @keyframes livePulse {
+      0%   { opacity: 1;   box-shadow: 0 0 0 0 rgba(224, 32, 32, 0.6); }
+      70%  { opacity: 0.5; box-shadow: 0 0 0 7px rgba(224, 32, 32, 0); }
+      100% { opacity: 1;   box-shadow: 0 0 0 0 rgba(224, 32, 32, 0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .live-badge::before { animation: none; }
+    }
     .card-sub {
       font-family: 'IBM Plex Sans', sans-serif;
       font-size: 0.6rem;
@@ -283,6 +312,7 @@
       <a class="card" href="cbse10.html">
         <h2 class="card-title">CBSE X</h2>
         <span class="card-sub">Top 50 Rankings</span>
+        <span class="live-badge">Results Live</span>
       </a>
 
       <a class="card" href="cbse12.html">
