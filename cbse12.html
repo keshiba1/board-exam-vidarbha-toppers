@@ -538,7 +538,25 @@
     }
 
     function fmtIST(ts) {
-      return new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit', hour12: true }).format(new Date(ts));
+      const d = new Date(ts);
+      const day = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Kolkata', day: 'numeric', month: 'short', year: 'numeric' }).format(d);
+      const time = new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit', hour12: true }).format(d);
+      return day + ', ' + time;
+    }
+
+    /* Reads the sheet-side Meta!last_updated so every visitor sees the SAME
+       timestamp — i.e. when the rankings actually changed, not when this
+       browser last fetched. Falls back to local fetch time if unavailable. */
+    async function showLastUpdated() {
+      try {
+        const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Meta&t=${Date.now()}`;
+        const res = await fetch(url);
+        const txt = await res.text();
+        const m = txt.match(/"last_updated","([^"]+)"/);
+        if (m) { countdownEl.textContent = fmtIST(m[1]); return; }
+      } catch (err) { /* fall through */ }
+      const last = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
+      countdownEl.textContent = last ? fmtIST(last) : fmtIST(Date.now());
     }
 
     function tickCountdown() {
@@ -546,10 +564,10 @@
       if (last === 0 || Date.now() - last >= REFRESH_SECONDS * 1000) {
         localStorage.setItem(STORAGE_KEY, Date.now());
         fetchAll();
-        countdownEl.textContent = fmtIST(Date.now());
+        showLastUpdated();
         return;
       }
-      countdownEl.textContent = fmtIST(last);
+      showLastUpdated();
     }
 
     if (getSecondsLeft() <= 0) {
