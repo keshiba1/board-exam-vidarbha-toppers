@@ -306,7 +306,7 @@
   </header>
 
   <div class="update-strip">
-    Last updated <span id="countdown" class="timer-value">just now</span>
+    Last updated <span id="countdown" class="timer-value">—</span>
   </div>
 
   <div class="info-bar">
@@ -458,23 +458,19 @@
       return Math.max(0, REFRESH_SECONDS - elapsed);
     }
 
+    function fmtIST(ts) {
+      return new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Kolkata', hour: 'numeric', minute: '2-digit', hour12: true }).format(new Date(ts));
+    }
+
     function tickCountdown() {
       const last = parseInt(localStorage.getItem(STORAGE_KEY) || '0', 10);
       if (last === 0 || Date.now() - last >= REFRESH_SECONDS * 1000) {
         localStorage.setItem(STORAGE_KEY, Date.now());
         fetchData();
-        countdownEl.textContent = 'just now';
+        countdownEl.textContent = fmtIST(Date.now());
         return;
       }
-      const elapsedMin = Math.floor((Date.now() - last) / 60000);
-      let label;
-      if (elapsedMin < 1) label = 'just now';
-      else if (elapsedMin < 60) label = elapsedMin + (elapsedMin === 1 ? ' min ago' : ' mins ago');
-      else {
-        const hrs = Math.floor(elapsedMin / 60);
-        label = hrs + (hrs === 1 ? ' hour ago' : ' hours ago');
-      }
-      countdownEl.textContent = label;
+      countdownEl.textContent = fmtIST(last);
     }
 
     if (getSecondsLeft() <= 0) {
