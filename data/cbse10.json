@@ -1,0 +1,6094 @@
+{
+ "board": "cbse10",
+ "generated_at": "2026-07-21T08:18:04Z",
+ "source": "vidarbha50.db (SQLite ledger)",
+ "total_students": 869,
+ "total_schools": 18,
+ "ranks": 50,
+ "cutoff": 89.4,
+ "students": [
+  {
+   "name": "Saanidhya Borkar",
+   "pct": 99.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 1
+  },
+  {
+   "name": "Yamini Ade",
+   "pct": 99.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 1
+  },
+  {
+   "name": "Pratham Uttarwar",
+   "pct": 99.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 2
+  },
+  {
+   "name": "Aaradhya Pokale",
+   "pct": 98.8,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 3
+  },
+  {
+   "name": "Dhruv Nath",
+   "pct": 98.8,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 3
+  },
+  {
+   "name": "Samruddhi Manthapurwar",
+   "pct": 98.8,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 3
+  },
+  {
+   "name": "Rishit Agrawal",
+   "pct": 98.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 3
+  },
+  {
+   "name": "Sonakshi Nagdeve",
+   "pct": 98.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 3
+  },
+  {
+   "name": "Shreyansh Das",
+   "pct": 98.6,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 4
+  },
+  {
+   "name": "Brijesh Punyani",
+   "pct": 98.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 4
+  },
+  {
+   "name": "Dimpi Mandhalkar",
+   "pct": 98.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 4
+  },
+  {
+   "name": "Srujan Kankal",
+   "pct": 98.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 4
+  },
+  {
+   "name": "Narayani Patil",
+   "pct": 98.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 4
+  },
+  {
+   "name": "Pawaki Ranjan",
+   "pct": 98.4,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 5
+  },
+  {
+   "name": "Varenya Devdhar",
+   "pct": 98.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 5
+  },
+  {
+   "name": "Tiya Chakole",
+   "pct": 98.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 5
+  },
+  {
+   "name": "Shaurya Patil",
+   "pct": 98.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 5
+  },
+  {
+   "name": "Yug Bangade",
+   "pct": 98.2,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Aarna Udhoji",
+   "pct": 98.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Mustafa Hirani",
+   "pct": 98.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Deepak Meena",
+   "pct": 98.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Mahi Thadani",
+   "pct": 98.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Sandarbh Meshram",
+   "pct": 98.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Anay Saxena",
+   "pct": 98.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Ansh Shiwankar",
+   "pct": 98.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Anshita Dudhe",
+   "pct": 98.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Divyansh Thakur",
+   "pct": 98.0,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Aayush Kapse",
+   "pct": 98.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Pehel Agrawal",
+   "pct": 98.0,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Abhijeet Hota",
+   "pct": 98.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Keya Aarsh",
+   "pct": 98.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Yashvi Daga",
+   "pct": 98.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Shanaya Singh",
+   "pct": 98.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Tejaswini Nair",
+   "pct": 98.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Aarushi Tonge",
+   "pct": 97.8,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Pragya Singh",
+   "pct": 97.8,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Praniti Domke",
+   "pct": 97.8,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Vedant Naralkar",
+   "pct": 97.8,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Vismaya Bondre",
+   "pct": 97.8,
+   "college": "Bhavan's BVM (Ashti)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Aarush Jawade",
+   "pct": 97.8,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Anagha Wasnik",
+   "pct": 97.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Aryan Shivhare",
+   "pct": 97.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Tashvi Gulati",
+   "pct": 97.8,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Sonakshi Gupta",
+   "pct": 97.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Shashvat Jawlekar",
+   "pct": 97.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Arya Kausadikar",
+   "pct": 97.8,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "V G Neketha Saie",
+   "pct": 97.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Atharva Rambhad",
+   "pct": 97.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Nidhi Agrawal",
+   "pct": 97.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Soham Garibe",
+   "pct": 97.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Gargi Joshi",
+   "pct": 97.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Naitik Sangtani",
+   "pct": 97.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Saanvi Potdar",
+   "pct": 97.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Tanishka Poptani",
+   "pct": 97.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Teerath Kaur Alag",
+   "pct": 97.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Aadit Kundu",
+   "pct": 97.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Ananya Jawade",
+   "pct": 97.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Sarthak Agrawal",
+   "pct": 97.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Alishba Ghaffar",
+   "pct": 97.6,
+   "college": "Kids World",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Athang Panse",
+   "pct": 97.6,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Sarthak Panbhak",
+   "pct": 97.6,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Soham Gharote",
+   "pct": 97.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Neerav Shrivastava",
+   "pct": 97.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Vedang Batra",
+   "pct": 97.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Vidhi Bajaj",
+   "pct": 97.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Devansh Rekhi",
+   "pct": 97.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Dia Aswani",
+   "pct": 97.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Diptangshu Roy",
+   "pct": 97.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Kavish Agrawal",
+   "pct": 97.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Sayali Pakhmode",
+   "pct": 97.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Maseera Fatema",
+   "pct": 97.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Vaibhavi Mandpe",
+   "pct": 97.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Kanishk Das",
+   "pct": 97.4,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Arnav Tathe",
+   "pct": 97.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Riddhi Fulsunge",
+   "pct": 97.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Siya Nehrotra",
+   "pct": 97.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Vidhi Raut",
+   "pct": 97.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Chinmaya Rokade",
+   "pct": 97.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Ishanvi Wath",
+   "pct": 97.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Adittya Parteti",
+   "pct": 97.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Rudrani Thakare",
+   "pct": 97.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Mruga Gonnade",
+   "pct": 97.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Nitish Ramteke",
+   "pct": 97.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Riyansh Gupta",
+   "pct": 97.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Kumar Shaleen",
+   "pct": 97.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Akshaj Shahi",
+   "pct": 97.2,
+   "college": "Kids World",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Tridha Sarkar",
+   "pct": 97.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Rishan Mankar",
+   "pct": 97.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Devashish Selukar",
+   "pct": 97.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Nirmayee Godghate",
+   "pct": 97.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Saee Thakre",
+   "pct": 97.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Swayam Patil",
+   "pct": 97.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Vidit Ostwal",
+   "pct": 97.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Shreyash Mahajan",
+   "pct": 97.0,
+   "college": "CIPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Rehmat Singh Bakshi",
+   "pct": 97.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Lakshita Kabra",
+   "pct": 97.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Tanvi Kakde",
+   "pct": 97.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Shanaya Bansal",
+   "pct": 97.0,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Lavanya Bhadbhuje",
+   "pct": 97.0,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Kalash Sonare",
+   "pct": 97.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Sanika Sonkul",
+   "pct": 97.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
+   "name": "Saachi Sonkusare",
+   "pct": 96.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Soumitra Mude",
+   "pct": 96.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Vritti Punekar",
+   "pct": 96.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Jaywardhan Ghadge",
+   "pct": 96.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Manya Mehta",
+   "pct": 96.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Vedansh Tajpuriya",
+   "pct": 96.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Darsh Kothari",
+   "pct": 96.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Pratham Amesar",
+   "pct": 96.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Sharwari Bhongade",
+   "pct": 96.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Mothukuri Shloka",
+   "pct": 96.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Anushka Mundhada",
+   "pct": 96.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Asim Bhagat",
+   "pct": 96.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Atharva Singh",
+   "pct": 96.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Manan Shambhuwani",
+   "pct": 96.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Kimaya Belekar",
+   "pct": 96.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Anupam Kundu",
+   "pct": 96.6,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Piyush Kumar Singh",
+   "pct": 96.6,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Laranya Dutta",
+   "pct": 96.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Shourya Khanna",
+   "pct": 96.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Shreeram Bajaj",
+   "pct": 96.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Zahabiyah Fidvi",
+   "pct": 96.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Sumati Khunger",
+   "pct": 96.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Dilisha Agrawal",
+   "pct": 96.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Parmi Pazare",
+   "pct": 96.6,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Aadhayan Kumar Singh",
+   "pct": 96.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Drishti Hirani",
+   "pct": 96.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Krishna Dangore",
+   "pct": 96.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Ishtaa Dhoke",
+   "pct": 96.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Manchit Bhagat",
+   "pct": 96.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Pushpak Agrawal",
+   "pct": 96.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Sai Paavan Gopalrao Surampally",
+   "pct": 96.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Shalvi Morey",
+   "pct": 96.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Shreyas Kuthe",
+   "pct": 96.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 14
+  },
+  {
+   "name": "Bhairavi Urmale",
+   "pct": 96.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Saisha Totade",
+   "pct": 96.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Bhavya Zamad",
+   "pct": 96.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Rashi Shah",
+   "pct": 96.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Kunjal Tijare",
+   "pct": 96.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Ananya Goyenka",
+   "pct": 96.4,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Manas Deshmukh",
+   "pct": 96.4,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Yash Bhura",
+   "pct": 96.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Avani Katkoria",
+   "pct": 96.4,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Raghav Lohiya",
+   "pct": 96.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Sharvil Ghagare",
+   "pct": 96.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Shrisai Ojha",
+   "pct": 96.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Shrutika Kapse",
+   "pct": 96.4,
+   "college": "Kids World",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Naisha Wankhede",
+   "pct": 96.4,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Nivedita Kamble",
+   "pct": 96.4,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Aalhad Ghose",
+   "pct": 96.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Aarav Chandak",
+   "pct": 96.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Anish Deshmukh",
+   "pct": 96.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Atharva Patil",
+   "pct": 96.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Bhargav Bhute",
+   "pct": 96.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Bhavya Malviya",
+   "pct": 96.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Rudranshu Dharmejwar",
+   "pct": 96.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Tanisha Gade",
+   "pct": 96.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
+   "name": "Avani Rao",
+   "pct": 96.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Dimitra Chaturvedi",
+   "pct": 96.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Sarthak Jadhav",
+   "pct": 96.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Bhargavi Joshi",
+   "pct": 96.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Devanshi Jajoo",
+   "pct": 96.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Utkarsh Bhure",
+   "pct": 96.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Amrapali Dupare",
+   "pct": 96.2,
+   "college": "CIPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Rupak Paunikar",
+   "pct": 96.2,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Ahaan Shori",
+   "pct": 96.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Samar Bhange",
+   "pct": 96.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Krishna Sarda",
+   "pct": 96.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Dhanishta Walde",
+   "pct": 96.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Siri Bhat",
+   "pct": 96.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Parth Shastri",
+   "pct": 96.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Akshay Verma",
+   "pct": 96.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Kartik Gadkari",
+   "pct": 96.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Aastha Gurjar",
+   "pct": 96.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Divyam Bahetwar",
+   "pct": 96.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Kaivalya Awatade",
+   "pct": 96.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Vanshika Wankhede",
+   "pct": 96.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Archit Nagmote",
+   "pct": 96.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Hunnar Agrawal",
+   "pct": 96.0,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Deepika Mulchandani",
+   "pct": 96.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Naysa Lad",
+   "pct": 96.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Vivaan Jaiswal",
+   "pct": 96.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Harsh Mahant",
+   "pct": 96.0,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Riya Sedani",
+   "pct": 96.0,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Aashi Bhaiyya",
+   "pct": 96.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Maahi Mishra",
+   "pct": 96.0,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Tarush Agrawal",
+   "pct": 96.0,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Shruti Biswal",
+   "pct": 96.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Akshara Badwe",
+   "pct": 96.0,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Devansh Kaner",
+   "pct": 96.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Archit Shinde",
+   "pct": 96.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Soham Pittule",
+   "pct": 96.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Ved Sahu",
+   "pct": 96.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Vedang Dudhe",
+   "pct": 96.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Chitra Pande",
+   "pct": 95.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Aarya Lambat",
+   "pct": 95.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Dhairya Rathi",
+   "pct": 95.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Raajveer Gupta",
+   "pct": 95.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Yuveeka Hatwar",
+   "pct": 95.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Rakshit Thakur",
+   "pct": 95.8,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Chinmay Gandhalikar",
+   "pct": 95.8,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Ummehani Amin",
+   "pct": 95.8,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Aditya Bagde",
+   "pct": 95.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Dhani Sethia",
+   "pct": 95.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Vidhan Dhoble",
+   "pct": 95.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Ajitesh Parihar",
+   "pct": 95.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Kinjal Jain",
+   "pct": 95.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Roohani Puri",
+   "pct": 95.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Shourya Khatwani",
+   "pct": 95.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Soumya Gosewade",
+   "pct": 95.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Sudarshan Sharma",
+   "pct": 95.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Sanvi Alag",
+   "pct": 95.8,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Princess Aishwarya",
+   "pct": 95.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Arnav Mukherjee",
+   "pct": 95.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Aurin Ray",
+   "pct": 95.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Krishna Karale",
+   "pct": 95.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Meenal Meshram",
+   "pct": 95.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Samruddhi Hadke",
+   "pct": 95.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Amey Malve",
+   "pct": 95.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Pragyan Meshram",
+   "pct": 95.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Shrishti Suman Jee Pathak",
+   "pct": 95.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Shubhraa Sawarkar",
+   "pct": 95.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Shamoyita Das",
+   "pct": 95.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Adwait Kuhite",
+   "pct": 95.6,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Keshin Mohite",
+   "pct": 95.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Mansi Amesar",
+   "pct": 95.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Samir Gumgaonkar",
+   "pct": 95.6,
+   "college": "CIPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Arpita Malewar",
+   "pct": 95.6,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Dev Malvia",
+   "pct": 95.6,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Mahi Kabra",
+   "pct": 95.6,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Shaurya Divecha",
+   "pct": 95.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Bhavika Dua",
+   "pct": 95.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Rashida Pindwarawala",
+   "pct": 95.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Yashasvi Banode",
+   "pct": 95.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Arnav Chandekar",
+   "pct": 95.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Gunika Vaid",
+   "pct": 95.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Naitik Kumar",
+   "pct": 95.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Tejal Singh",
+   "pct": 95.6,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Adit Toshniwal",
+   "pct": 95.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Nandini Sabale",
+   "pct": 95.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Raghav Gampawar",
+   "pct": 95.6,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Krushna Khutemate",
+   "pct": 95.6,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Anshul Bhujade",
+   "pct": 95.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Arya Pradhan",
+   "pct": 95.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Anshuman Gandhi",
+   "pct": 95.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Riddhiman Nagmote",
+   "pct": 95.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Atharva Wakodikar",
+   "pct": 95.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Sanchita Patil",
+   "pct": 95.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Aditya Kalbende",
+   "pct": 95.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Ansh Ladikar",
+   "pct": 95.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Arth Ladikar",
+   "pct": 95.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Bhautik Gaidhane",
+   "pct": 95.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Saachi Bhattad",
+   "pct": 95.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Swarnika Tiwari",
+   "pct": 95.4,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Adwita Golechha",
+   "pct": 95.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Lakshya Agarwal",
+   "pct": 95.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Om Chopde",
+   "pct": 95.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Panav Khandelwal",
+   "pct": 95.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Spruha Kumar",
+   "pct": 95.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Tanisha Narang",
+   "pct": 95.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Adityaansh Singh",
+   "pct": 95.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Adrisha Panda",
+   "pct": 95.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Nikhar Jain",
+   "pct": 95.4,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Avani Lutade",
+   "pct": 95.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Shashwat Wagh",
+   "pct": 95.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Swaraj Mankar",
+   "pct": 95.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Arnav Padole",
+   "pct": 95.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Amey Jadhav",
+   "pct": 95.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Nidhi Pahukar",
+   "pct": 95.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Nikita Joshi",
+   "pct": 95.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Vanshika Bondre",
+   "pct": 95.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Himanshu Bajaj",
+   "pct": 95.2,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Aayushmaan Sahni",
+   "pct": 95.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Chetna V",
+   "pct": 95.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Rushikesh Kasulkar",
+   "pct": 95.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Anishka Pasari",
+   "pct": 95.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Mahi Dawara",
+   "pct": 95.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Shaizan Moosani",
+   "pct": 95.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Shreya Zode",
+   "pct": 95.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Parv Khandelwal",
+   "pct": 95.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Zunairah Husain",
+   "pct": 95.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Anshuman Ray",
+   "pct": 95.2,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Nishad Pawar",
+   "pct": 95.2,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Bhavya Turkar",
+   "pct": 95.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Lakshita Lakhe",
+   "pct": 95.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Veera Bangre",
+   "pct": 95.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Mansvi Meher",
+   "pct": 95.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Parin Lohakare",
+   "pct": 95.0,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Aditi Ranka",
+   "pct": 95.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Advait Kopulwar",
+   "pct": 95.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Soumya Adikane",
+   "pct": 95.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Aarav Agrawal",
+   "pct": 95.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Dhruv Giri",
+   "pct": 95.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Hriday Garg",
+   "pct": 95.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Jay Sawalakhe",
+   "pct": 95.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Anika Agarwal",
+   "pct": 95.0,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Anvi Mishra",
+   "pct": 95.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Kanak Hatewar",
+   "pct": 95.0,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Sarang Yadav",
+   "pct": 95.0,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Palak Agrawal",
+   "pct": 95.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Siddhi Jisnani",
+   "pct": 95.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Yash Ahuja",
+   "pct": 95.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Jaskirat Singh Bagga",
+   "pct": 95.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Aqsa Khan",
+   "pct": 95.0,
+   "college": "Kids World",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Nitya Khetade",
+   "pct": 95.0,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Zeeshan Zahir",
+   "pct": 95.0,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Aaradhy Gupta",
+   "pct": 95.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Raunak Bhagat",
+   "pct": 95.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Anushka Gawande",
+   "pct": 95.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Nitish Gholse",
+   "pct": 95.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Sara Patrikar",
+   "pct": 95.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Athansh Gajbhiye",
+   "pct": 94.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Gargi Ukey",
+   "pct": 94.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Shreeyans Waghmare",
+   "pct": 94.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Priyanka Rohankar",
+   "pct": 94.8,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Aditya Narayan",
+   "pct": 94.8,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Yati Bhatewara",
+   "pct": 94.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Kriti Jeswani",
+   "pct": 94.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Manveer Singh Chawla",
+   "pct": 94.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Mrinmai Wankhede",
+   "pct": 94.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Aditya Dongare",
+   "pct": 94.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Ved Deotale",
+   "pct": 94.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Arjun Gourkar",
+   "pct": 94.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Diya Kurani",
+   "pct": 94.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Hrudaya Ghate",
+   "pct": 94.6,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Siddaarth Nair",
+   "pct": 94.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Yashica Jain",
+   "pct": 94.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Murtaza Kothriwala",
+   "pct": 94.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Advait Chandorkar",
+   "pct": 94.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Iccha Somkuwar",
+   "pct": 94.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Kartikeya Bijalwan",
+   "pct": 94.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Manali Wadodkar",
+   "pct": 94.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Mohammed Sauran Mulla",
+   "pct": 94.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Rimjhim Sharma",
+   "pct": 94.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Trisha Singnapurkar",
+   "pct": 94.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Ananya Jaronde",
+   "pct": 94.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Anaya Hate",
+   "pct": 94.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Janhavi Pannase",
+   "pct": 94.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Jayneel Soitkar",
+   "pct": 94.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Jyotiraditya Khirwadkar",
+   "pct": 94.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Mohit Zade",
+   "pct": 94.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Nirav Chandak",
+   "pct": 94.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Shripad Awari",
+   "pct": 94.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Ishita Nimbhorkar",
+   "pct": 94.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Anushka Gawande",
+   "pct": 94.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Aryak Vishwakarma",
+   "pct": 94.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Sampada Tikle",
+   "pct": 94.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Shaurya Trivedi",
+   "pct": 94.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Devanshi Masram",
+   "pct": 94.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Ojaswini Ghawghawe",
+   "pct": 94.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Tanishka Kale",
+   "pct": 94.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Urvi Shah",
+   "pct": 94.4,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Amaan Khan",
+   "pct": 94.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Anshveer Singh Kalra",
+   "pct": 94.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Nikhil Gupta",
+   "pct": 94.4,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Ovee Ghode",
+   "pct": 94.4,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Suhani Jain",
+   "pct": 94.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Vishwashree Sonaskar",
+   "pct": 94.4,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Aarohi Galphate",
+   "pct": 94.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Swayam Khobragade",
+   "pct": 94.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Binish Sheikh",
+   "pct": 94.4,
+   "college": "Indian Olympiad",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Kaivalya Kadoo",
+   "pct": 94.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Ananya Manwatkar",
+   "pct": 94.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Bhavya Yadav",
+   "pct": 94.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 25
+  },
+  {
+   "name": "Nishad Kathade",
+   "pct": 94.2,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Sahil Chandewar",
+   "pct": 94.2,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Bhavishya Narayani",
+   "pct": 94.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Somanshu Samanta",
+   "pct": 94.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Toshit Bagwan",
+   "pct": 94.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Arth Dhoble",
+   "pct": 94.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Sivang Gupta",
+   "pct": 94.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Ritvik Wade",
+   "pct": 94.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Gaurang Teotia",
+   "pct": 94.2,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Aditi Zaware",
+   "pct": 94.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Jasmeh Sood",
+   "pct": 94.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Lavanya Mude",
+   "pct": 94.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Manasvi Ashtankar",
+   "pct": 94.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Swara Meshram",
+   "pct": 94.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Tanmay Ganorkar",
+   "pct": 94.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Vidhi Nandurkar",
+   "pct": 94.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Ananya Shinde",
+   "pct": 94.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Drishti Dhamecha",
+   "pct": 94.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
+   "name": "Dipanshu Bhandwalkar",
+   "pct": 94.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Saanvi Ghorai",
+   "pct": 94.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Harshika Panpalia",
+   "pct": 94.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Jiya Agrawal",
+   "pct": 94.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Rutveek Patil",
+   "pct": 94.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Hitansh Patil",
+   "pct": 94.0,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Sameer Gaikwad",
+   "pct": 94.0,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Stuti Paliwal",
+   "pct": 94.0,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Pranshi Rai",
+   "pct": 94.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Tasmiya Fatema",
+   "pct": 94.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Soumi Shiprak",
+   "pct": 94.0,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Aarna Singh Sengar",
+   "pct": 94.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Lisha Agrawal",
+   "pct": 94.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Paritosh Bombarde",
+   "pct": 94.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Aalhad Tadas",
+   "pct": 94.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Ayushi Nagpure",
+   "pct": 94.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Iraa Panhekar",
+   "pct": 94.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Rudra Dixit",
+   "pct": 94.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Sandilee Ghatekar",
+   "pct": 94.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
+   "name": "Ashutosh Singh",
+   "pct": 93.8,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Aarushi Deshmukh",
+   "pct": 93.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Samiya Sarkate",
+   "pct": 93.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Tanishka Shamkuwar",
+   "pct": 93.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Gayatri Saraswat",
+   "pct": 93.8,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Tiara Kothari",
+   "pct": 93.8,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Divyam Rahangdale",
+   "pct": 93.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Khanak Jain",
+   "pct": 93.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Shaina Batra",
+   "pct": 93.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Sparsh Nagrale",
+   "pct": 93.8,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Om Naukarkar",
+   "pct": 93.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Kshitija Tekade",
+   "pct": 93.8,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Mayank Choudhari",
+   "pct": 93.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Naitik Bais",
+   "pct": 93.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Aadya Khedkar",
+   "pct": 93.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Ojas Adhau",
+   "pct": 93.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Pranali Shinde",
+   "pct": 93.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Saee Buche",
+   "pct": 93.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Advik Sonune",
+   "pct": 93.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Onkar Kanthawar",
+   "pct": 93.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Samarth Wagadre",
+   "pct": 93.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Ved Deshmukh",
+   "pct": 93.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Yashashree Nare",
+   "pct": 93.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Mayank Dandekar",
+   "pct": 93.6,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Kripa Punyani",
+   "pct": 93.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Siddhi Dewake",
+   "pct": 93.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Ananya Sharma",
+   "pct": 93.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Anshul Ratan",
+   "pct": 93.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Chirag Agrawal",
+   "pct": 93.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Kalp Jain",
+   "pct": 93.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Tanveer Singh Bhalla",
+   "pct": 93.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Yash Yadav",
+   "pct": 93.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Shreyash Ranjan",
+   "pct": 93.6,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Adarsh Tiwari",
+   "pct": 93.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Ojas Vasule",
+   "pct": 93.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Radhika Bamnote",
+   "pct": 93.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Samiksh Dhoble",
+   "pct": 93.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Bhargavi Bhuyarkar",
+   "pct": 93.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Samartha Barde",
+   "pct": 93.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Akshansh Singh",
+   "pct": 93.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Mehal Chowdhary",
+   "pct": 93.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Anshul Keswani",
+   "pct": 93.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Arnav Chaudhary",
+   "pct": 93.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Shashvi Chandankhede",
+   "pct": 93.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Soumitra Thoke",
+   "pct": 93.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Aarushi Karwa",
+   "pct": 93.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Atharva Wanjari",
+   "pct": 93.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Adheesh Verma",
+   "pct": 93.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Mehwish Firoz Khan Kanoje",
+   "pct": 93.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Vedika Mohta",
+   "pct": 93.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Gananjay Kulkarni",
+   "pct": 93.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Shambhavi Sinha",
+   "pct": 93.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Sparsh Jaiswal",
+   "pct": 93.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Tejas Kumar",
+   "pct": 93.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Aryan Yadav",
+   "pct": 93.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Jayash Nandagawli",
+   "pct": 93.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Sarthak Shahu",
+   "pct": 93.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Swarit Waghmare",
+   "pct": 93.4,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Sonakshi Mankar",
+   "pct": 93.4,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Ashwajeet Bombarde",
+   "pct": 93.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Jayee Nighade",
+   "pct": 93.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Khyati Doman Lal Sinha",
+   "pct": 93.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Aanvi Nimbalkar",
+   "pct": 93.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Aashi Kumar",
+   "pct": 93.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Chetanya Jaiswal",
+   "pct": 93.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Pahal Panchbhai",
+   "pct": 93.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Swara Jenekar",
+   "pct": 93.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Yashraj Mehta",
+   "pct": 93.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
+   "name": "Harshit Dhote",
+   "pct": 93.2,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Mahi Vispute",
+   "pct": 93.2,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Siddhesh Darvekar",
+   "pct": 93.2,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Ananya Sah",
+   "pct": 93.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Asmi Chanmanwar",
+   "pct": 93.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Avanti Bopche",
+   "pct": 93.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Bhakti Titarmare",
+   "pct": 93.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Misha Wadekar",
+   "pct": 93.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Janhavi Patil",
+   "pct": 93.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Indrasheesh Mukherjee",
+   "pct": 93.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Nishika Agrawal",
+   "pct": 93.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Akshay Dubey",
+   "pct": 93.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Arnav Mangalkar",
+   "pct": 93.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Sharmain Patel",
+   "pct": 93.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Aayesha Hussain",
+   "pct": 93.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Ashwin Bhatia",
+   "pct": 93.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Akshita Shrivastava",
+   "pct": 93.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Alaina Chawhan",
+   "pct": 93.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Shreyan Kher",
+   "pct": 93.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Spandana Bansod",
+   "pct": 93.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Zehra Siddiqui",
+   "pct": 93.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Aryan Yadav",
+   "pct": 93.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Divya Karamchandani",
+   "pct": 93.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Kaustubh Godghate",
+   "pct": 93.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Rutvij Ghonge",
+   "pct": 93.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Anannya Buddhe",
+   "pct": 93.0,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Atharv Kapse",
+   "pct": 93.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Sanskar Verma",
+   "pct": 93.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Anvi Sindhwani",
+   "pct": 93.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Arnav Moharkar",
+   "pct": 93.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Devyani Thakare",
+   "pct": 93.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Tejas Zade",
+   "pct": 93.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Darsh Bansijani",
+   "pct": 93.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Piya Mudliar",
+   "pct": 93.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Saanvi Shetty",
+   "pct": 93.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Tisha Ahuja",
+   "pct": 93.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Aarav Thete",
+   "pct": 93.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Aryavardhan Jadha",
+   "pct": 93.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Mohammad Ayaan Qureshi",
+   "pct": 93.0,
+   "college": "Indian Olympiad",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Varad Hood",
+   "pct": 93.0,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Anam Shah",
+   "pct": 93.0,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Abhinil Bhagat",
+   "pct": 93.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Disha Narayani",
+   "pct": 93.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Paree Kale",
+   "pct": 93.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Prisha Gujarkar",
+   "pct": 93.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Aditya Gode",
+   "pct": 93.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Saachi Varma",
+   "pct": 93.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
+   "name": "Aaryan Chavan",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Raghav Pandit",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Aman Singh",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Apeksha Marshinge",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Molakalapalli Divya Dattanshu",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Siddhi Tiwari",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Aryan Agrawal",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Janhavi Itankar",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Rusham Gundecha",
+   "pct": 92.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Dhriti Ranidani Goyadani",
+   "pct": 92.8,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Oshin Dhanrajani",
+   "pct": 92.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Granth Gupta",
+   "pct": 92.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Kaavya Shah",
+   "pct": 92.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Vipra Karade",
+   "pct": 92.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Samriddhi Singh",
+   "pct": 92.8,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Shriya Pawar",
+   "pct": 92.8,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Vidhi Raut",
+   "pct": 92.8,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Ayushi Singh",
+   "pct": 92.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Darsh Khandelwal",
+   "pct": 92.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Khwaish Bisen",
+   "pct": 92.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Aadya Morey",
+   "pct": 92.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Anshara Siddiqui",
+   "pct": 92.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Khushi Dongre",
+   "pct": 92.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Nitya Sontakke",
+   "pct": 92.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Raunak Shukla",
+   "pct": 92.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Sanchita Kamble",
+   "pct": 92.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Tanika Zade",
+   "pct": 92.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Nishad Lampuse",
+   "pct": 92.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Deepanshu Dhawale",
+   "pct": 92.6,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Astha Agrawal",
+   "pct": 92.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Parth Deshpande",
+   "pct": 92.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Anshika Manihar",
+   "pct": 92.6,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Dhriti Ganwani",
+   "pct": 92.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Dreyash Rajput",
+   "pct": 92.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Manan Fattepuria",
+   "pct": 92.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Pavitraa Surjan",
+   "pct": 92.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Ishani Ghosh",
+   "pct": 92.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Adityaraj Giri",
+   "pct": 92.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Ansh Bagaddeo",
+   "pct": 92.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Ayush Mallick",
+   "pct": 92.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Adwet Kolhe",
+   "pct": 92.6,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Arnav Akotkar",
+   "pct": 92.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Madhura Dadmal",
+   "pct": 92.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Manikarnika Andeo",
+   "pct": 92.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Amitav Ramteke",
+   "pct": 92.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Aaron George",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Rishik Singh",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Ansh Nikose",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Chahat Adwani",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Swara Datey",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Vaibhav Ganvir",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Vedant Binzade",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Anuj Chanchlani",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Devanshu Nimbarte",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Durvakshi Dhanwalkar",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Fizza Akbani",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Kovid Tawalare",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Shree Chaudhari",
+   "pct": 92.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Abhas Shivankar",
+   "pct": 92.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Naisha Singh",
+   "pct": 92.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Rishabh Das",
+   "pct": 92.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Shail Narnaware",
+   "pct": 92.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Nimisha Hande",
+   "pct": 92.4,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Shaurya Manwani",
+   "pct": 92.4,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Shubham Tulsyan",
+   "pct": 92.4,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Afsheen Badar",
+   "pct": 92.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Anwesha Chatterjee",
+   "pct": 92.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Sabrina Naseem Ali Sayyed",
+   "pct": 92.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Yutika Meshram",
+   "pct": 92.4,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Vibha Verma",
+   "pct": 92.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Lavanya Bhagat",
+   "pct": 92.4,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Adhyan Chawhan",
+   "pct": 92.4,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Om Chore",
+   "pct": 92.4,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Parthvi Bobde",
+   "pct": 92.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Shourya Sharma",
+   "pct": 92.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Aarya Maliye",
+   "pct": 92.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Kashika Verma",
+   "pct": 92.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Prabhat Kumar Singh",
+   "pct": 92.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Darshil Deshmukh",
+   "pct": 92.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Devansh Sonpipare",
+   "pct": 92.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Freya Pachisia",
+   "pct": 92.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Saksham Bansal",
+   "pct": 92.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Eyanah Y Ilavia",
+   "pct": 92.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Jash Rajkotia",
+   "pct": 92.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Monish Nagpal",
+   "pct": 92.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Archit Singh",
+   "pct": 92.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Kanika Maheshwari",
+   "pct": 92.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Mruja Padalkar",
+   "pct": 92.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Ch. Sahasra",
+   "pct": 92.2,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Arnav Ailwar",
+   "pct": 92.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Naitik Dehankar",
+   "pct": 92.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Vaidik Shah",
+   "pct": 92.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Devyansh Taywade",
+   "pct": 92.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Kavya Tripathi",
+   "pct": 92.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Sanskruti Shinde",
+   "pct": 92.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Harshwardan Singh Raaghav",
+   "pct": 92.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Mitansh Manke",
+   "pct": 92.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Vibhuti Chawla",
+   "pct": 92.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Avanti Hajare",
+   "pct": 92.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Soumya Walke",
+   "pct": 92.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Yusharaa Shaikh",
+   "pct": 92.0,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Alisha Deshpande",
+   "pct": 92.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Ania Jain",
+   "pct": 92.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Laksh Ladwani",
+   "pct": 92.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Priyanka Kumar",
+   "pct": 92.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Dev Agrawal",
+   "pct": 92.0,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Dhruv Wadbudhe",
+   "pct": 92.0,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Muskan Dembla",
+   "pct": 92.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Ram Sachdev",
+   "pct": 92.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Shonit Gupta",
+   "pct": 92.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Rochak Pidurkar",
+   "pct": 92.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Asiya Hashmy",
+   "pct": 92.0,
+   "college": "Indian Olympiad",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Arshan Khan",
+   "pct": 92.0,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Ameya Katyarmal",
+   "pct": 92.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Bhakti Chavhan",
+   "pct": 92.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Sayali Dekate",
+   "pct": 92.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Siddharth Behere",
+   "pct": 92.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Aarav Singh",
+   "pct": 92.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Aditya Chatur",
+   "pct": 92.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Atharva Shrikhande",
+   "pct": 92.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Avirat Gaikwad",
+   "pct": 92.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Ayushi Pimpalkar",
+   "pct": 92.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 37
+  },
+  {
+   "name": "Yati Sonbarse",
+   "pct": 91.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Atharva Jadhao",
+   "pct": 91.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Harshada Dhanvijay",
+   "pct": 91.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Sejal Makde",
+   "pct": 91.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Prachi Patel",
+   "pct": 91.8,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Aditi Jaiswal",
+   "pct": 91.8,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Aayush Minocha",
+   "pct": 91.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Rishhit Sahu",
+   "pct": 91.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Simin Lalani",
+   "pct": 91.8,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Aneegha Narnaware",
+   "pct": 91.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Ronit Swami",
+   "pct": 91.8,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Ruhamah Chandekar",
+   "pct": 91.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Aditya Mandape",
+   "pct": 91.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Krishna Jinnewar",
+   "pct": 91.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Shraddha Bajaj",
+   "pct": 91.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 38
+  },
+  {
+   "name": "Arya Dudhane",
+   "pct": 91.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Sayee Bobde",
+   "pct": 91.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Kanaika Shivhare",
+   "pct": 91.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Yugal Ahuja",
+   "pct": 91.6,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Urvi Hudiya",
+   "pct": 91.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Vidhan Jejani",
+   "pct": 91.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Alakh Daswani",
+   "pct": 91.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Ekaansh Lalwani",
+   "pct": 91.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Kumar Aditya Sarma",
+   "pct": 91.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Tamanna Batra",
+   "pct": 91.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Ipshita Garg",
+   "pct": 91.6,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Rohini Srivastav",
+   "pct": 91.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Umme Abiha",
+   "pct": 91.6,
+   "college": "Indian Olympiad",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Ashwin Jugseniya",
+   "pct": 91.6,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Aditi Kharane",
+   "pct": 91.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Ishika Dhopte",
+   "pct": 91.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Swara Rakshamwar",
+   "pct": 91.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 39
+  },
+  {
+   "name": "Shreerang Mahajan",
+   "pct": 91.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Adit Bajaj",
+   "pct": 91.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Dhruvika Chourasia",
+   "pct": 91.4,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Daksh Maheshwari",
+   "pct": 91.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Manay Panchmatia",
+   "pct": 91.4,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Raunak Pandey",
+   "pct": 91.4,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Pruthviraj Kadu",
+   "pct": 91.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Jatin Kachhela",
+   "pct": 91.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Manyata Batwani",
+   "pct": 91.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Aditya Wadhankar",
+   "pct": 91.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Garv Chachra",
+   "pct": 91.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Aayaansh Lanjewar",
+   "pct": 91.4,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Anay Pathak",
+   "pct": 91.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Atharv Chavhan",
+   "pct": 91.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Ayra Juned",
+   "pct": 91.4,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Aakanshi Itankar",
+   "pct": 91.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Nishitesh Nirmal",
+   "pct": 91.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Vedant Vaidya",
+   "pct": 91.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 40
+  },
+  {
+   "name": "Pakhi Sumbh",
+   "pct": 91.2,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Anshul Uikey",
+   "pct": 91.2,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Simran Vishindasani",
+   "pct": 91.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Aishwarya Nair",
+   "pct": 91.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Diya Haswani",
+   "pct": 91.2,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Aanvi Sanghi",
+   "pct": 91.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Aarchi Mishra",
+   "pct": 91.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Eshal Qureshi",
+   "pct": 91.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Hitansh Parekh",
+   "pct": 91.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Tejas Shende",
+   "pct": 91.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Harjot Singh Pelia",
+   "pct": 91.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Om Patel",
+   "pct": 91.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Reneeka Mittra",
+   "pct": 91.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Adishri Tandekar",
+   "pct": 91.2,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Chitra Khanvilkar",
+   "pct": 91.2,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Adinath Kale",
+   "pct": 91.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Avantika Roy",
+   "pct": 91.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Nischal Saini",
+   "pct": 91.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Parth Shukla",
+   "pct": 91.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Prasheel Gajbhiye",
+   "pct": 91.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Vihaan Wahane",
+   "pct": 91.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Hansika Lohakar",
+   "pct": 91.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 41
+  },
+  {
+   "name": "Sonakshi Nagdeve",
+   "pct": 91.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Vedant Deshmukh",
+   "pct": 91.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Zara Pathan",
+   "pct": 91.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Himanshu Bele",
+   "pct": 91.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Ameesha Kawle",
+   "pct": 91.0,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Vedika Masta",
+   "pct": 91.0,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Siddhesh Kamble",
+   "pct": 91.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Akshita Agrawal",
+   "pct": 91.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Kritika Khushalani",
+   "pct": 91.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Mohnish Vidhani",
+   "pct": 91.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Yatharth Wasnik",
+   "pct": 91.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Darsh Saratkar",
+   "pct": 91.0,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Madiha Fatema Khan",
+   "pct": 91.0,
+   "college": "Indian Olympiad",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Priyansh Mishra",
+   "pct": 91.0,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Kanishka Meshram",
+   "pct": 91.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Daksh Roy",
+   "pct": 91.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Malhar Bhonde",
+   "pct": 91.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Sneh Yadav",
+   "pct": 91.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 42
+  },
+  {
+   "name": "Gunjan Gakhare",
+   "pct": 90.8,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Saanvi Marathe",
+   "pct": 90.8,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Akshita Guru",
+   "pct": 90.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Kristy Pherwani",
+   "pct": 90.8,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Atharva Charjan",
+   "pct": 90.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Atharva Inkane",
+   "pct": 90.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Nihal Pandey",
+   "pct": 90.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Vaishnavi Joshi",
+   "pct": 90.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Naman Yadav",
+   "pct": 90.8,
+   "college": "CIPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Swarit Gangotri",
+   "pct": 90.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Swayam Gahankar",
+   "pct": 90.8,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Atharva Gupta",
+   "pct": 90.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Jasmann Singh Ghatorode",
+   "pct": 90.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Urvika Kamarkar",
+   "pct": 90.8,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Yuvan Muthyala",
+   "pct": 90.8,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Binisha Patel",
+   "pct": 90.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Sampurno Biswas",
+   "pct": 90.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Alina Qureshi",
+   "pct": 90.8,
+   "college": "Indian Olympiad",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Vansh Pardhi",
+   "pct": 90.8,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Ayan Sinha",
+   "pct": 90.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Kasturi Khadatkar",
+   "pct": 90.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Adhyatman Phusate",
+   "pct": 90.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Hridhaan Dhopte",
+   "pct": 90.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Krishita Junghare",
+   "pct": 90.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Yuvraj Yadav",
+   "pct": 90.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 43
+  },
+  {
+   "name": "Drishti Joshi",
+   "pct": 90.6,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Arya Dorlikar",
+   "pct": 90.6,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Tanmay Karole",
+   "pct": 90.6,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Mansvi Hedau",
+   "pct": 90.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Mayank Hedau",
+   "pct": 90.6,
+   "college": "CIPS (Kapsi)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Asmi Deshmukh",
+   "pct": 90.6,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Ayanika Das",
+   "pct": 90.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Digvijay Soni",
+   "pct": 90.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Ram Trivedi",
+   "pct": 90.6,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Mohnish Lende",
+   "pct": 90.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Priyal Parasnani",
+   "pct": 90.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Vidhyanshu Kumar",
+   "pct": 90.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Yugal Barange",
+   "pct": 90.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Arav Waghmare",
+   "pct": 90.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Sarthak Koli",
+   "pct": 90.6,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Ishita Meshram",
+   "pct": 90.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Janhavi Puranik",
+   "pct": 90.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Siddhesh Piprewar",
+   "pct": 90.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 44
+  },
+  {
+   "name": "Shlok Kitey",
+   "pct": 90.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Shourya Tadas",
+   "pct": 90.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Shreyas Shirkhedkar",
+   "pct": 90.4,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Md Arman Ali",
+   "pct": 90.4,
+   "college": "CIPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Tanishq Borkar",
+   "pct": 90.4,
+   "college": "CIPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Aarunya Dange",
+   "pct": 90.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Anirudh Mundhada",
+   "pct": 90.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Arjun Khanorkar",
+   "pct": 90.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Vivaan Laddha",
+   "pct": 90.4,
+   "college": "CPS (Amt Rd Bypass)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Lohit Khemchandani",
+   "pct": 90.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Muzammil Sheikh",
+   "pct": 90.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Naisha Pilla",
+   "pct": 90.4,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Lonika Lahoti",
+   "pct": 90.4,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Ayush Agrawal",
+   "pct": 90.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Chetna Pandey",
+   "pct": 90.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Shivak Nair",
+   "pct": 90.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Anuraag Gomasta",
+   "pct": 90.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Mohammed Arshan Mulla",
+   "pct": 90.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Vedanti Ghubade",
+   "pct": 90.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Jivin Moon",
+   "pct": 90.4,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Om Gadbail",
+   "pct": 90.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Arnav Dhok",
+   "pct": 90.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Aryan D Kumar",
+   "pct": 90.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Ayaan Gattuwar",
+   "pct": 90.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 45
+  },
+  {
+   "name": "Yaashi Arora",
+   "pct": 90.2,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Heer Jhambia",
+   "pct": 90.2,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Grahesha Burde",
+   "pct": 90.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Saksham Malu",
+   "pct": 90.2,
+   "college": "CPS (WN)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Aarav Bansod",
+   "pct": 90.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Chaitanya Ambani",
+   "pct": 90.2,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Kumar Agastya",
+   "pct": 90.2,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Meghana Vashisht",
+   "pct": 90.2,
+   "college": "DPS (Lava)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Anay Tajne",
+   "pct": 90.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Lavanya Sharma",
+   "pct": 90.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Rayan Konde",
+   "pct": 90.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Sanika Mohidekar",
+   "pct": 90.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Soumya Bhojwani",
+   "pct": 90.2,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Atharv Vaidya",
+   "pct": 90.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Shreya Lande",
+   "pct": 90.2,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Petrina Joseph",
+   "pct": 90.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Tejas Magar",
+   "pct": 90.2,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Revhha Jattewar",
+   "pct": 90.2,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 46
+  },
+  {
+   "name": "Sara Borole",
+   "pct": 90.0,
+   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Akshat Dhuriya",
+   "pct": 90.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Reet Gera",
+   "pct": 90.0,
+   "college": "Bhavan's BVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Khushi Kale",
+   "pct": 90.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Lavanya Bodhe",
+   "pct": 90.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Nakshatra Somkuwar",
+   "pct": 90.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Swarit Ingale",
+   "pct": 90.0,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Ekamjyot Singh Chawla",
+   "pct": 90.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Rishi Khemka",
+   "pct": 90.0,
+   "college": "CPS (Katol Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Drishti Vishnani",
+   "pct": 90.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Khushi Pamnani",
+   "pct": 90.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Mohammad Sameer",
+   "pct": 90.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Nivedita Deepani",
+   "pct": 90.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Shourya Padvi",
+   "pct": 90.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Zainab Balapurwala",
+   "pct": 90.0,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Nilanjay Poyam",
+   "pct": 90.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Shrisha Mathur",
+   "pct": 90.0,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Shlok Pophali",
+   "pct": 90.0,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Aasawari Ingle",
+   "pct": 90.0,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Yashvi Gupta",
+   "pct": 90.0,
+   "college": "Modern School (Koradi Rd)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Disha Lonare",
+   "pct": 90.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Sharvari Nimbalkar",
+   "pct": 90.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Vipul Modak",
+   "pct": 90.0,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Ronav Nagpure",
+   "pct": 90.0,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 47
+  },
+  {
+   "name": "Ojas Deshmukh",
+   "pct": 89.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Parv Pagariya",
+   "pct": 89.8,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Aditya Bhargava",
+   "pct": 89.8,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Manav Ruhela",
+   "pct": 89.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Trikay Naranje",
+   "pct": 89.8,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Apurv Take",
+   "pct": 89.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Janhavi Ganorkar",
+   "pct": 89.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Samruddha Harane",
+   "pct": 89.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Sarthak Adewar",
+   "pct": 89.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Viraj Fate",
+   "pct": 89.8,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Aryavansh Singh",
+   "pct": 89.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Bhargao Gaidhane",
+   "pct": 89.8,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 48
+  },
+  {
+   "name": "Atharva Aswar",
+   "pct": 89.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Kinjal Hajare",
+   "pct": 89.6,
+   "college": "Bhavan's BVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Sehlish Nagdev",
+   "pct": 89.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Syed Zohaan Rasool",
+   "pct": 89.6,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Aditya Thakre",
+   "pct": 89.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Anuja Dewalkar",
+   "pct": 89.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Shailja Ladly",
+   "pct": 89.6,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Anushka Mohankar",
+   "pct": 89.6,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Lisha Gakhare",
+   "pct": 89.6,
+   "college": "MKH Sancheti (Besa)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Prisha Subhedar",
+   "pct": 89.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Shravani Junankar",
+   "pct": 89.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Sreeja Bhoyar",
+   "pct": 89.6,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 49
+  },
+  {
+   "name": "Vandana Virwani",
+   "pct": 89.4,
+   "college": "DPS (Kamptee Rd)",
+   "branch": "Nagpur",
+   "rank": 50
+  },
+  {
+   "name": "Chidabha Tanwar",
+   "pct": 89.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 50
+  },
+  {
+   "name": "Parth Falke",
+   "pct": 89.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 50
+  },
+  {
+   "name": "Prince Kombade",
+   "pct": 89.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 50
+  },
+  {
+   "name": "Vedant Sharma",
+   "pct": 89.4,
+   "college": "DPS (Mihan)",
+   "branch": "Nagpur",
+   "rank": 50
+  },
+  {
+   "name": "Avanti Shirke",
+   "pct": 89.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 50
+  },
+  {
+   "name": "Samyak Fulzele",
+   "pct": 89.4,
+   "college": "Montfort",
+   "branch": "Nagpur",
+   "rank": 50
+  },
+  {
+   "name": "Dheer Agrawal",
+   "pct": 89.4,
+   "college": "Narayana Vidyalayam (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 50
+  }
+ ]
+}
