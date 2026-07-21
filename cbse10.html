@@ -112,12 +112,30 @@
       padding: 9px 20px;
       text-align: center;
       font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 0.8rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
       color: #3a2e0f;
+      text-transform: uppercase;
+      animation: cutoffBeat 1.6s ease-in-out infinite;
     }
-    .next-update-strip strong { color: #0a0a0a; }
+    .next-update-strip strong {
+      color: #0a0a0a;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.95rem;
+    }
+    /* double-thump heartbeat, like a pulse */
+    @keyframes cutoffBeat {
+      0%   { transform: scale(1);    }
+      14%  { transform: scale(1.045);}
+      28%  { transform: scale(1);    }
+      42%  { transform: scale(1.03); }
+      56%  { transform: scale(1);    }
+      100% { transform: scale(1);    }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .next-update-strip { animation: none; }
+    }
     .update-strip .timer-value {
       font-family: 'IBM Plex Mono', monospace;
       font-style: normal;
@@ -322,7 +340,7 @@
   </div>
 
   <div class="next-update-strip">
-    ⏸ Next rankings update: <strong>1:00 PM today</strong>
+    Top 50 Cut-off &mdash; <strong id="cutoff-value">—</strong>
   </div>
 
   <div class="info-bar">
@@ -418,6 +436,12 @@
       const sorted = sortRows(rows);
       assignRanks(sorted);
       const visible = sorted.filter(r => r.rank <= 50);
+
+      // lowest percentage still inside the Top 50 = the live cut-off
+      const cutEl = document.getElementById('cutoff-value');
+      if (cutEl && visible.length) {
+        cutEl.textContent = visible[visible.length - 1].pct.toFixed(1) + '%';
+      }
       tbody.innerHTML = visible.map(r => {
         const parts = toTitleCase(r.name.trim()).split(/\s+/);
         const firstName = parts[0] || '';
