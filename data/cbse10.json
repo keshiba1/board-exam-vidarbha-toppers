@@ -1,6 +1,6 @@
 {
  "board": "cbse10",
- "generated_at": "2026-07-22T04:02:46Z",
+ "generated_at": "2026-07-22T04:11:35Z",
  "source": "vidarbha50.db (SQLite ledger)",
  "total_students": 865,
  "total_schools": 19,
@@ -10,21 +10,21 @@
   {
    "name": "Sreemoyee Sengupta",
    "pct": 99.4,
-   "college": "Bhavan's BVM (Civil Lines)",
+   "college": "Bhavan's BPVM (Civil Lines)",
    "branch": "Nagpur",
    "rank": 1
   },
   {
    "name": "Siddharth Band",
    "pct": 99.2,
-   "college": "Bhavan's BVM (Civil Lines)",
+   "college": "Bhavan's BPVM (Civil Lines)",
    "branch": "Nagpur",
    "rank": 2
   },
   {
    "name": "Saanidhya Borkar",
    "pct": 99.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 2
   },
@@ -45,28 +45,28 @@
   {
    "name": "Aaradhya Pokale",
    "pct": 98.8,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 4
   },
   {
    "name": "Dhruv Nath",
    "pct": 98.8,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 4
   },
   {
    "name": "Samruddhi Manthapurwar",
    "pct": 98.8,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 4
   },
   {
    "name": "Rishit Agrawal",
    "pct": 98.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 4
   },
@@ -80,7 +80,7 @@
   {
    "name": "Shreyansh Das",
    "pct": 98.6,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 5
   },
@@ -115,7 +115,7 @@
   {
    "name": "Pawaki Ranjan",
    "pct": 98.4,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 6
   },
@@ -143,14 +143,14 @@
   {
    "name": "Yug Bangade",
    "pct": 98.2,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 7
   },
   {
    "name": "Ishan Gajbhiye",
    "pct": 98.2,
-   "college": "Bhavan's BVM (Civil Lines)",
+   "college": "Bhavan's BPVM (Civil Lines)",
    "branch": "Nagpur",
    "rank": 7
   },
@@ -213,21 +213,21 @@
   {
    "name": "Divyansh Thakur",
    "pct": 98.0,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 8
   },
   {
    "name": "Shrishti Singh",
    "pct": 98.0,
-   "college": "Bhavan's BVM (Civil Lines)",
+   "college": "Bhavan's BPVM (Civil Lines)",
    "branch": "Nagpur",
    "rank": 8
   },
   {
    "name": "Aayush Kapse",
    "pct": 98.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 8
   },
@@ -276,56 +276,56 @@
   {
    "name": "Aarushi Tonge",
    "pct": 97.8,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 9
   },
   {
    "name": "Pragya Singh",
    "pct": 97.8,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 9
   },
   {
    "name": "Praniti Domke",
    "pct": 97.8,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 9
   },
   {
    "name": "Vedant Naralkar",
    "pct": 97.8,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 9
   },
   {
    "name": "Vismaya Bondre",
    "pct": 97.8,
-   "college": "Bhavan's BVM (Ashti)",
+   "college": "Bhavan's BPVM (Ashti)",
    "branch": "Nagpur",
    "rank": 9
   },
   {
    "name": "Aarush Jawade",
    "pct": 97.8,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 9
   },
   {
    "name": "Anagha Wasnik",
    "pct": 97.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 9
   },
   {
    "name": "Aryan Shivhare",
    "pct": 97.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 9
   },
@@ -388,7 +388,7 @@
   {
    "name": "Gargi Joshi",
    "pct": 97.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 10
   },
@@ -472,21 +472,21 @@
   {
    "name": "Neerav Shrivastava",
    "pct": 97.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 11
   },
   {
    "name": "Vedang Batra",
    "pct": 97.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 11
   },
   {
    "name": "Vidhi Bajaj",
    "pct": 97.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 11
   },
@@ -577,28 +577,28 @@
   {
    "name": "Chinmaya Rokade",
    "pct": 97.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 12
   },
   {
    "name": "Ishanvi Wath",
    "pct": 97.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 12
   },
   {
    "name": "Adittya Parteti",
    "pct": 97.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 12
   },
   {
    "name": "Rudrani Thakare",
    "pct": 97.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 12
   },
@@ -675,14 +675,14 @@
   {
    "name": "Swayam Patil",
    "pct": 97.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 13
   },
   {
    "name": "Vidit Ostwal",
    "pct": 97.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 13
   },
@@ -745,21 +745,21 @@
   {
    "name": "Saachi Sonkusare",
    "pct": 96.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 14
   },
   {
    "name": "Soumitra Mude",
    "pct": 96.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 14
   },
   {
    "name": "Vritti Punekar",
    "pct": 96.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 14
   },
@@ -843,21 +843,21 @@
   {
    "name": "Kimaya Belekar",
    "pct": 96.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 15
   },
   {
    "name": "Anupam Kundu",
    "pct": 96.6,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 15
   },
   {
    "name": "Piyush Kumar Singh",
    "pct": 96.6,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 15
   },
@@ -976,28 +976,28 @@
   {
    "name": "Bhairavi Urmale",
    "pct": 96.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 16
   },
   {
    "name": "Saisha Totade",
    "pct": 96.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 16
   },
   {
    "name": "Bhavya Zamad",
    "pct": 96.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 16
   },
   {
    "name": "Rashi Shah",
    "pct": 96.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 16
   },
@@ -1137,42 +1137,42 @@
   {
    "name": "Avani Rao",
    "pct": 96.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 17
   },
   {
    "name": "Dimitra Chaturvedi",
    "pct": 96.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 17
   },
   {
    "name": "Sarthak Jadhav",
    "pct": 96.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 17
   },
   {
    "name": "Bhargavi Joshi",
    "pct": 96.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 17
   },
   {
    "name": "Devanshi Jajoo",
    "pct": 96.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 17
   },
   {
    "name": "Utkarsh Bhure",
    "pct": 96.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 17
   },
@@ -1249,35 +1249,35 @@
   {
    "name": "Aastha Gurjar",
    "pct": 96.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 18
   },
   {
    "name": "Divyam Bahetwar",
    "pct": 96.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 18
   },
   {
    "name": "Kaivalya Awatade",
    "pct": 96.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 18
   },
   {
    "name": "Vanshika Wankhede",
    "pct": 96.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 18
   },
   {
    "name": "Archit Nagmote",
    "pct": 96.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 18
   },
@@ -1396,35 +1396,35 @@
   {
    "name": "Chitra Pande",
    "pct": 95.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 19
   },
   {
    "name": "Aarya Lambat",
    "pct": 95.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 19
   },
   {
    "name": "Dhairya Rathi",
    "pct": 95.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 19
   },
   {
    "name": "Raajveer Gupta",
    "pct": 95.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 19
   },
   {
    "name": "Yuveeka Hatwar",
    "pct": 95.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 19
   },
@@ -1592,28 +1592,28 @@
   {
    "name": "Shamoyita Das",
    "pct": 95.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 20
   },
   {
    "name": "Adwait Kuhite",
    "pct": 95.6,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 20
   },
   {
    "name": "Keshin Mohite",
    "pct": 95.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 20
   },
   {
    "name": "Mansi Amesar",
    "pct": 95.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 20
   },
@@ -1760,49 +1760,49 @@
   {
    "name": "Atharva Wakodikar",
    "pct": 95.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 21
   },
   {
    "name": "Sanchita Patil",
    "pct": 95.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 21
   },
   {
    "name": "Aditya Kalbende",
    "pct": 95.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 21
   },
   {
    "name": "Ansh Ladikar",
    "pct": 95.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 21
   },
   {
    "name": "Arth Ladikar",
    "pct": 95.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 21
   },
   {
    "name": "Bhautik Gaidhane",
    "pct": 95.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 21
   },
   {
    "name": "Saachi Bhattad",
    "pct": 95.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 21
   },
@@ -1935,7 +1935,7 @@
   {
    "name": "Himanshu Bajaj",
    "pct": 95.2,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 22
   },
@@ -2047,56 +2047,56 @@
   {
    "name": "Parin Lohakare",
    "pct": 95.0,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 23
   },
   {
    "name": "Aditi Ranka",
    "pct": 95.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 23
   },
   {
    "name": "Advait Kopulwar",
    "pct": 95.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 23
   },
   {
    "name": "Soumya Adikane",
    "pct": 95.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 23
   },
   {
    "name": "Aarav Agrawal",
    "pct": 95.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 23
   },
   {
    "name": "Dhruv Giri",
    "pct": 95.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 23
   },
   {
    "name": "Hriday Garg",
    "pct": 95.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 23
   },
   {
    "name": "Jay Sawalakhe",
    "pct": 95.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 23
   },
@@ -2215,21 +2215,21 @@
   {
    "name": "Athansh Gajbhiye",
    "pct": 94.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 24
   },
   {
    "name": "Gargi Ukey",
    "pct": 94.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 24
   },
   {
    "name": "Shreeyans Waghmare",
    "pct": 94.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 24
   },
@@ -2285,21 +2285,21 @@
   {
    "name": "Ved Deotale",
    "pct": 94.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 25
   },
   {
    "name": "Arjun Gourkar",
    "pct": 94.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 25
   },
   {
    "name": "Diya Kurani",
    "pct": 94.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 25
   },
@@ -2439,56 +2439,56 @@
   {
    "name": "Ishita Nimbhorkar",
    "pct": 94.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 26
   },
   {
    "name": "Anushka Gawande",
    "pct": 94.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 26
   },
   {
    "name": "Aryak Vishwakarma",
    "pct": 94.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 26
   },
   {
    "name": "Sampada Tikle",
    "pct": 94.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 26
   },
   {
    "name": "Shaurya Trivedi",
    "pct": 94.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 26
   },
   {
    "name": "Devanshi Masram",
    "pct": 94.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 26
   },
   {
    "name": "Ojaswini Ghawghawe",
    "pct": 94.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 26
   },
   {
    "name": "Tanishka Kale",
    "pct": 94.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 26
   },
@@ -2586,49 +2586,49 @@
   {
    "name": "Nishad Kathade",
    "pct": 94.2,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 27
   },
   {
    "name": "Sahil Chandewar",
    "pct": 94.2,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 27
   },
   {
    "name": "Bhavishya Narayani",
    "pct": 94.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 27
   },
   {
    "name": "Somanshu Samanta",
    "pct": 94.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 27
   },
   {
    "name": "Toshit Bagwan",
    "pct": 94.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 27
   },
   {
    "name": "Arth Dhoble",
    "pct": 94.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 27
   },
   {
    "name": "Sivang Gupta",
    "pct": 94.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 27
   },
@@ -2712,35 +2712,35 @@
   {
    "name": "Dipanshu Bhandwalkar",
    "pct": 94.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 28
   },
   {
    "name": "Saanvi Ghorai",
    "pct": 94.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 28
   },
   {
    "name": "Harshika Panpalia",
    "pct": 94.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 28
   },
   {
    "name": "Jiya Agrawal",
    "pct": 94.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 28
   },
   {
    "name": "Rutveek Patil",
    "pct": 94.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 28
   },
@@ -2845,28 +2845,28 @@
   {
    "name": "Ashutosh Singh",
    "pct": 93.8,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 29
   },
   {
    "name": "Aarushi Deshmukh",
    "pct": 93.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 29
   },
   {
    "name": "Samiya Sarkate",
    "pct": 93.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 29
   },
   {
    "name": "Tanishka Shamkuwar",
    "pct": 93.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 29
   },
@@ -2971,56 +2971,56 @@
   {
    "name": "Advik Sonune",
    "pct": 93.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 30
   },
   {
    "name": "Onkar Kanthawar",
    "pct": 93.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 30
   },
   {
    "name": "Samarth Wagadre",
    "pct": 93.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 30
   },
   {
    "name": "Ved Deshmukh",
    "pct": 93.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 30
   },
   {
    "name": "Yashashree Nare",
    "pct": 93.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 30
   },
   {
    "name": "Mayank Dandekar",
    "pct": 93.6,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 30
   },
   {
    "name": "Kripa Punyani",
    "pct": 93.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 30
   },
   {
    "name": "Siddhi Dewake",
    "pct": 93.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 30
   },
@@ -3118,56 +3118,56 @@
   {
    "name": "Akshansh Singh",
    "pct": 93.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 31
   },
   {
    "name": "Mehal Chowdhary",
    "pct": 93.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 31
   },
   {
    "name": "Anshul Keswani",
    "pct": 93.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 31
   },
   {
    "name": "Arnav Chaudhary",
    "pct": 93.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 31
   },
   {
    "name": "Shashvi Chandankhede",
    "pct": 93.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 31
   },
   {
    "name": "Soumitra Thoke",
    "pct": 93.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 31
   },
   {
    "name": "Aarushi Karwa",
    "pct": 93.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 31
   },
   {
    "name": "Atharva Wanjari",
    "pct": 93.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 31
   },
@@ -3321,56 +3321,56 @@
   {
    "name": "Harshit Dhote",
    "pct": 93.2,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 32
   },
   {
    "name": "Mahi Vispute",
    "pct": 93.2,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 32
   },
   {
    "name": "Siddhesh Darvekar",
    "pct": 93.2,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 32
   },
   {
    "name": "Ananya Sah",
    "pct": 93.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 32
   },
   {
    "name": "Asmi Chanmanwar",
    "pct": 93.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 32
   },
   {
    "name": "Avanti Bopche",
    "pct": 93.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 32
   },
   {
    "name": "Bhakti Titarmare",
    "pct": 93.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 32
   },
   {
    "name": "Misha Wadekar",
    "pct": 93.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 32
   },
@@ -3496,49 +3496,49 @@
   {
    "name": "Anannya Buddhe",
    "pct": 93.0,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 33
   },
   {
    "name": "Atharv Kapse",
    "pct": 93.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 33
   },
   {
    "name": "Sanskar Verma",
    "pct": 93.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 33
   },
   {
    "name": "Anvi Sindhwani",
    "pct": 93.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 33
   },
   {
    "name": "Arnav Moharkar",
    "pct": 93.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 33
   },
   {
    "name": "Devyani Thakare",
    "pct": 93.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 33
   },
   {
    "name": "Tejas Zade",
    "pct": 93.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 33
   },
@@ -3650,63 +3650,63 @@
   {
    "name": "Aaryan Chavan",
    "pct": 92.8,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 34
   },
   {
    "name": "Raghav Pandit",
    "pct": 92.8,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 34
   },
   {
    "name": "Aman Singh",
    "pct": 92.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 34
   },
   {
    "name": "Apeksha Marshinge",
    "pct": 92.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 34
   },
   {
    "name": "Molakalapalli Divya Dattanshu",
    "pct": 92.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 34
   },
   {
    "name": "Siddhi Tiwari",
    "pct": 92.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 34
   },
   {
    "name": "Aryan Agrawal",
    "pct": 92.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 34
   },
   {
    "name": "Janhavi Itankar",
    "pct": 92.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 34
   },
   {
    "name": "Rusham Gundecha",
    "pct": 92.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 34
   },
@@ -3846,21 +3846,21 @@
   {
    "name": "Deepanshu Dhawale",
    "pct": 92.6,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 35
   },
   {
    "name": "Astha Agrawal",
    "pct": 92.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 35
   },
   {
    "name": "Parth Deshpande",
    "pct": 92.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 35
   },
@@ -3965,91 +3965,91 @@
   {
    "name": "Aaron George",
    "pct": 92.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Rishik Singh",
    "pct": 92.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Ansh Nikose",
    "pct": 92.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Chahat Adwani",
    "pct": 92.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Swara Datey",
    "pct": 92.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Vaibhav Ganvir",
    "pct": 92.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Vedant Binzade",
    "pct": 92.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Anuj Chanchlani",
    "pct": 92.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Devanshu Nimbarte",
    "pct": 92.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Durvakshi Dhanwalkar",
    "pct": 92.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Fizza Akbani",
    "pct": 92.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Kovid Tawalare",
    "pct": 92.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 36
   },
   {
    "name": "Shree Chaudhari",
    "pct": 92.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 36
   },
@@ -4189,21 +4189,21 @@
   {
    "name": "Prabhat Kumar Singh",
    "pct": 92.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 37
   },
   {
    "name": "Darshil Deshmukh",
    "pct": 92.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 37
   },
   {
    "name": "Devansh Sonpipare",
    "pct": 92.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 37
   },
@@ -4315,35 +4315,35 @@
   {
    "name": "Harshwardan Singh Raaghav",
    "pct": 92.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 38
   },
   {
    "name": "Mitansh Manke",
    "pct": 92.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 38
   },
   {
    "name": "Vibhuti Chawla",
    "pct": 92.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 38
   },
   {
    "name": "Avanti Hajare",
    "pct": 92.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 38
   },
   {
    "name": "Soumya Walke",
    "pct": 92.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 38
   },
@@ -4504,28 +4504,28 @@
   {
    "name": "Yati Sonbarse",
    "pct": 91.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 39
   },
   {
    "name": "Atharva Jadhao",
    "pct": 91.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 39
   },
   {
    "name": "Harshada Dhanvijay",
    "pct": 91.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 39
   },
   {
    "name": "Sejal Makde",
    "pct": 91.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 39
   },
@@ -4609,7 +4609,7 @@
   {
    "name": "Arya Dudhane",
    "pct": 91.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 40
   },
@@ -4728,35 +4728,35 @@
   {
    "name": "Shreerang Mahajan",
    "pct": 91.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 41
   },
   {
    "name": "Adit Bajaj",
    "pct": 91.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 41
   },
   {
    "name": "Dhruvika Chourasia",
    "pct": 91.4,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 41
   },
   {
    "name": "Daksh Maheshwari",
    "pct": 91.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 41
   },
   {
    "name": "Manay Panchmatia",
    "pct": 91.4,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 41
   },
@@ -4854,21 +4854,21 @@
   {
    "name": "Pakhi Sumbh",
    "pct": 91.2,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 42
   },
   {
    "name": "Anshul Uikey",
    "pct": 91.2,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 42
   },
   {
    "name": "Simran Vishindasani",
    "pct": 91.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 42
   },
@@ -5008,28 +5008,28 @@
   {
    "name": "Sonakshi Nagdeve",
    "pct": 91.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 43
   },
   {
    "name": "Vedant Deshmukh",
    "pct": 91.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 43
   },
   {
    "name": "Zara Pathan",
    "pct": 91.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 43
   },
   {
    "name": "Himanshu Bele",
    "pct": 91.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 43
   },
@@ -5134,56 +5134,56 @@
   {
    "name": "Gunjan Gakhare",
    "pct": 90.8,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 44
   },
   {
    "name": "Saanvi Marathe",
    "pct": 90.8,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 44
   },
   {
    "name": "Akshita Guru",
    "pct": 90.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 44
   },
   {
    "name": "Kristy Pherwani",
    "pct": 90.8,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 44
   },
   {
    "name": "Atharva Charjan",
    "pct": 90.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 44
   },
   {
    "name": "Atharva Inkane",
    "pct": 90.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 44
   },
   {
    "name": "Nihal Pandey",
    "pct": 90.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 44
   },
   {
    "name": "Vaishnavi Joshi",
    "pct": 90.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 44
   },
@@ -5309,28 +5309,28 @@
   {
    "name": "Drishti Joshi",
    "pct": 90.6,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 45
   },
   {
    "name": "Arya Dorlikar",
    "pct": 90.6,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 45
   },
   {
    "name": "Tanmay Karole",
    "pct": 90.6,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 45
   },
   {
    "name": "Mansvi Hedau",
    "pct": 90.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 45
   },
@@ -5435,21 +5435,21 @@
   {
    "name": "Shlok Kitey",
    "pct": 90.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 46
   },
   {
    "name": "Shourya Tadas",
    "pct": 90.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 46
   },
   {
    "name": "Shreyas Shirkhedkar",
    "pct": 90.4,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 46
   },
@@ -5603,7 +5603,7 @@
   {
    "name": "Yaashi Arora",
    "pct": 90.2,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 47
   },
@@ -5729,49 +5729,49 @@
   {
    "name": "Sara Borole",
    "pct": 90.0,
-   "college": "Bhavan's BVM (Chinchbhuvan)",
+   "college": "Bhavan's BPVM (Chinchbhuvan)",
    "branch": "Nagpur",
    "rank": 48
   },
   {
    "name": "Akshat Dhuriya",
    "pct": 90.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 48
   },
   {
    "name": "Reet Gera",
    "pct": 90.0,
-   "college": "Bhavan's BVM (Koradi)",
+   "college": "Bhavan's BPVM (Koradi)",
    "branch": "Nagpur",
    "rank": 48
   },
   {
    "name": "Khushi Kale",
    "pct": 90.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 48
   },
   {
    "name": "Lavanya Bodhe",
    "pct": 90.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 48
   },
   {
    "name": "Nakshatra Somkuwar",
    "pct": 90.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 48
   },
   {
    "name": "Swarit Ingale",
    "pct": 90.0,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 48
   },
@@ -5897,14 +5897,14 @@
   {
    "name": "Ojas Deshmukh",
    "pct": 89.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 49
   },
   {
    "name": "Parv Pagariya",
    "pct": 89.8,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 49
   },
@@ -5981,14 +5981,14 @@
   {
    "name": "Atharva Aswar",
    "pct": 89.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 50
   },
   {
    "name": "Kinjal Hajare",
    "pct": 89.6,
-   "college": "Bhavan's BVM (SKN)",
+   "college": "Bhavan's BPVM (SKN)",
    "branch": "Nagpur",
    "rank": 50
   },
