@@ -1,9 +1,9 @@
 {
  "board": "cbse10",
- "generated_at": "2026-07-22T04:11:35Z",
+ "generated_at": "2026-07-22T06:46:05Z",
  "source": "vidarbha50.db (SQLite ledger)",
- "total_students": 865,
- "total_schools": 19,
+ "total_students": 924,
+ "total_schools": 20,
  "ranks": 50,
  "cutoff": 89.6,
  "students": [
@@ -85,6 +85,20 @@
    "rank": 5
   },
   {
+   "name": "Avantika Chaurasia",
+   "pct": 98.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 5
+  },
+  {
+   "name": "Ishan Belge",
+   "pct": 98.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 5
+  },
+  {
    "name": "Brijesh Punyani",
    "pct": 98.6,
    "college": "CPS (WN)",
@@ -120,6 +134,34 @@
    "rank": 6
   },
   {
+   "name": "Darshit Kamble",
+   "pct": 98.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Maithili Dhatrak",
+   "pct": 98.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Mohd Naved Akhtar",
+   "pct": 98.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
+   "name": "Ved Maniyar",
+   "pct": 98.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 6
+  },
+  {
    "name": "Varenya Devdhar",
    "pct": 98.4,
    "college": "CPS (Amt Rd Bypass)",
@@ -151,6 +193,20 @@
    "name": "Ishan Gajbhiye",
    "pct": 98.2,
    "college": "Bhavan's BPVM (Civil Lines)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Adwaya Kshirsagar",
+   "pct": 98.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 7
+  },
+  {
+   "name": "Daivik Agrawal",
+   "pct": 98.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 7
   },
@@ -228,6 +284,20 @@
    "name": "Aayush Kapse",
    "pct": 98.0,
    "college": "Bhavan's BPVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Gojiri Thatekar",
+   "pct": 98.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 8
+  },
+  {
+   "name": "Kartik Shukla",
+   "pct": 98.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 8
   },
@@ -330,6 +400,20 @@
    "rank": 9
   },
   {
+   "name": "Avadhoot Paranjpe",
+   "pct": 97.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
+   "name": "Nishad Lohkare",
+   "pct": 97.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 9
+  },
+  {
    "name": "Tashvi Gulati",
    "pct": 97.8,
    "college": "CPS (Amt Rd Bypass)",
@@ -389,6 +473,27 @@
    "name": "Gargi Joshi",
    "pct": 97.6,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Delisha Limje",
+   "pct": 97.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Gaurav Kodhe",
+   "pct": 97.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 10
+  },
+  {
+   "name": "Shantanu Palsodkar",
+   "pct": 97.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 10
   },
@@ -487,6 +592,27 @@
    "name": "Vidhi Bajaj",
    "pct": 97.4,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Namman Tripathi",
+   "pct": 97.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Shriya Waikar",
+   "pct": 97.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 11
+  },
+  {
+   "name": "Vedant Pachpor",
+   "pct": 97.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 11
   },
@@ -603,6 +729,13 @@
    "rank": 12
   },
   {
+   "name": "Radha Jadhav",
+   "pct": 97.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 12
+  },
+  {
    "name": "Mruga Gonnade",
    "pct": 97.2,
    "college": "CPS (Amt Rd Bypass)",
@@ -683,6 +816,13 @@
    "name": "Vidit Ostwal",
    "pct": 97.0,
    "college": "Bhavan's BPVM (Koradi)",
+   "branch": "Nagpur",
+   "rank": 13
+  },
+  {
+   "name": "Rohan Kanetkar",
+   "pct": 97.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 13
   },
@@ -862,6 +1002,13 @@
    "rank": 15
   },
   {
+   "name": "Kaustubh Diyewar",
+   "pct": 96.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 15
+  },
+  {
    "name": "Laranya Dutta",
    "pct": 96.6,
    "college": "CPS (Amt Rd Bypass)",
@@ -998,6 +1145,20 @@
    "name": "Rashi Shah",
    "pct": 96.4,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Gopi Baheti",
+   "pct": 96.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 16
+  },
+  {
+   "name": "Ruhi Seta",
+   "pct": 96.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 16
   },
@@ -1177,6 +1338,20 @@
    "rank": 17
   },
   {
+   "name": "Shreya Krishnan",
+   "pct": 96.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
+   "name": "Uttara Marodkar",
+   "pct": 96.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 17
+  },
+  {
    "name": "Amrapali Dupare",
    "pct": 96.2,
    "college": "CIPS (Kamptee Rd)",
@@ -1278,6 +1453,13 @@
    "name": "Archit Nagmote",
    "pct": 96.0,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 18
+  },
+  {
+   "name": "Suditi Gupta",
+   "pct": 96.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 18
   },
@@ -1425,6 +1607,13 @@
    "name": "Yuveeka Hatwar",
    "pct": 95.8,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 19
+  },
+  {
+   "name": "Aryaman Thaware",
+   "pct": 95.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 19
   },
@@ -1618,6 +1807,20 @@
    "rank": 20
   },
   {
+   "name": "Arnav Londhe",
+   "pct": 95.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
+   "name": "Sanya Bhure",
+   "pct": 95.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 20
+  },
+  {
    "name": "Samir Gumgaonkar",
    "pct": 95.6,
    "college": "CIPS (Kamptee Rd)",
@@ -1807,6 +2010,20 @@
    "rank": 21
   },
   {
+   "name": "Aarohi Telgote",
+   "pct": 95.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
+   "name": "Preksha Sawai",
+   "pct": 95.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 21
+  },
+  {
    "name": "Swarnika Tiwari",
    "pct": 95.4,
    "college": "CIPS (Kapsi)",
@@ -1936,6 +2153,20 @@
    "name": "Himanshu Bajaj",
    "pct": 95.2,
    "college": "Bhavan's BPVM (Chinchbhuvan)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Eshita Pal",
+   "pct": 95.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 22
+  },
+  {
+   "name": "Sudhikshan Toshniwal",
+   "pct": 95.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 22
   },
@@ -2101,6 +2332,27 @@
    "rank": 23
   },
   {
+   "name": "Dhruvii Patel",
+   "pct": 95.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Nidhi Rakshak",
+   "pct": 95.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
+   "name": "Vanshika Harish",
+   "pct": 95.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 23
+  },
+  {
    "name": "Anika Agarwal",
    "pct": 95.0,
    "college": "CPS (Amt Rd Bypass)",
@@ -2230,6 +2482,20 @@
    "name": "Shreeyans Waghmare",
    "pct": 94.8,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Adi Wairagade",
+   "pct": 94.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 24
+  },
+  {
+   "name": "Anika Chandak",
+   "pct": 94.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 24
   },
@@ -2493,6 +2759,13 @@
    "rank": 26
   },
   {
+   "name": "Ruchika Biswas",
+   "pct": 94.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 26
+  },
+  {
    "name": "Urvi Shah",
    "pct": 94.4,
    "college": "CIPS (Kapsi)",
@@ -2633,6 +2906,13 @@
    "rank": 27
   },
   {
+   "name": "Raghav Gupta",
+   "pct": 94.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 27
+  },
+  {
    "name": "Ritvik Wade",
    "pct": 94.2,
    "college": "CPS (Amt Rd Bypass)",
@@ -2741,6 +3021,20 @@
    "name": "Rutveek Patil",
    "pct": 94.0,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Sara Tokekar",
+   "pct": 94.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 28
+  },
+  {
+   "name": "Shourya Deshmukh",
+   "pct": 94.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 28
   },
@@ -2867,6 +3161,27 @@
    "name": "Tanishka Shamkuwar",
    "pct": 93.8,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Aaditeya Rajurkar",
+   "pct": 93.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Sarah Samarth",
+   "pct": 93.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 29
+  },
+  {
+   "name": "Swara Belkhode",
+   "pct": 93.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 29
   },
@@ -3025,6 +3340,13 @@
    "rank": 30
   },
   {
+   "name": "Arijit Kothari",
+   "pct": 93.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 30
+  },
+  {
    "name": "Ananya Sharma",
    "pct": 93.6,
    "college": "CPS (Katol Rd)",
@@ -3168,6 +3490,34 @@
    "name": "Atharva Wanjari",
    "pct": 93.4,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Aincy Patil",
+   "pct": 93.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Gargi Kawale",
+   "pct": 93.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Gurveer Singh",
+   "pct": 93.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 31
+  },
+  {
+   "name": "Shravani Bangde",
+   "pct": 93.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 31
   },
@@ -3375,6 +3725,13 @@
    "rank": 32
   },
   {
+   "name": "Aayushi Rawat",
+   "pct": 93.2,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 32
+  },
+  {
    "name": "Janhavi Patil",
    "pct": 93.2,
    "college": "CPS (Amt Rd Bypass)",
@@ -3539,6 +3896,13 @@
    "name": "Tejas Zade",
    "pct": 93.0,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 33
+  },
+  {
+   "name": "Aditi Thakre",
+   "pct": 93.0,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 33
   },
@@ -3711,6 +4075,20 @@
    "rank": 34
   },
   {
+   "name": "Sanish Ambagade",
+   "pct": 92.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
+   "name": "Shubham Akotkar",
+   "pct": 92.8,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 34
+  },
+  {
    "name": "Dhriti Ranidani Goyadani",
    "pct": 92.8,
    "college": "CPS (Amt Rd Bypass)",
@@ -3861,6 +4239,27 @@
    "name": "Parth Deshpande",
    "pct": 92.6,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Rashi Padmawar",
+   "pct": 92.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Sanjeevani Pimpale",
+   "pct": 92.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 35
+  },
+  {
+   "name": "Siddhi Mankawade",
+   "pct": 92.6,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 35
   },
@@ -4050,6 +4449,20 @@
    "name": "Shree Chaudhari",
    "pct": 92.4,
    "college": "Bhavan's BPVM (SKN)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Avni Meshram",
+   "pct": 92.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
+   "branch": "Nagpur",
+   "rank": 36
+  },
+  {
+   "name": "Siddhant Lokhande",
+   "pct": 92.4,
+   "college": "Bhavan's BPVM (Trimurti Nagar)",
    "branch": "Nagpur",
    "rank": 36
   },
