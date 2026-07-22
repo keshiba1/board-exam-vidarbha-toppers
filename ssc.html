@@ -179,6 +179,28 @@
     tbody tr.rank1 .td-pct        { color: #6b4f1d; }
     tbody tr.rank1 .cell-medal    { font-size: 1.15rem; }
 
+    /* Rank #2 — silver metallic band */
+    tbody tr.rank2 {
+      background: linear-gradient(90deg, #dde2e6 0%, #cfd5da 50%, #dde2e6 100%);
+    }
+    tbody tr.rank2 td { font-weight: 600; }
+    tbody tr.rank2 .cell-rank-num { color: #3d434a; font-size: 0.85rem; }
+    tbody tr.rank2 .cell-firstname,
+    tbody tr.rank2 .cell-surname  { color: #20242a; }
+    tbody tr.rank2 .td-pct        { color: #3d434a; }
+    tbody tr.rank2 .cell-medal    { font-size: 1.15rem; }
+
+    /* Rank #3 — bronze metallic band */
+    tbody tr.rank3 {
+      background: linear-gradient(90deg, #e8cfaf 0%, #dcbb92 50%, #e8cfaf 100%);
+    }
+    tbody tr.rank3 td { font-weight: 600; }
+    tbody tr.rank3 .cell-rank-num { color: #6b421a; font-size: 0.85rem; }
+    tbody tr.rank3 .cell-firstname,
+    tbody tr.rank3 .cell-surname  { color: #3d2410; }
+    tbody tr.rank3 .td-pct        { color: #6b421a; }
+    tbody tr.rank3 .cell-medal    { font-size: 1.15rem; }
+
     td {
       padding: 9px 8px;
       border-right: 1px solid #cccccc;
@@ -402,7 +424,7 @@
         const firstName = parts[0] || '';
         const surname   = parts.length > 1 ? parts[parts.length - 1] : '';
         return `
-        <tr class="${r.rank === 1 ? 'rank1' : ''}">
+        <tr class="${r.rank <= 3 ? 'rank' + r.rank : ''}">
           <td class="td-rank">
             ${r.medal ? `<span class="cell-medal">${r.medal}</span>` : ''}
             <span class="cell-rank-num">${r.rank}</span>
